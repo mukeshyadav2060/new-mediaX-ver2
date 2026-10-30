@@ -145,11 +145,11 @@ export default function SubmitPressRelease() {
             <input type="checkbox" required />
             <span>
               I agree to the{" "}
-              <Link href="/terms/" target="_blank" rel="noopener">
+              <Link href="/terms-condition" target="_blank" rel="noopener">
                 Terms
               </Link>{" "}
               and{" "}
-              <Link href="/privacy/" target="_blank" rel="noopener">
+              <Link href="/privacy" target="_blank" rel="noopener">
                 Privacy policy
               </Link>
             </span>

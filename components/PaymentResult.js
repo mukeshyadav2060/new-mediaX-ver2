@@ -39,7 +39,7 @@ export default function PaymentResult({ title, intro, seoTitle, paid, otherPage,
       ) : (
         <PageHead title={state.missing ? "Order not found" : "Checking your order…"} intro={state.missing ? "We couldn’t find this order. Get in touch and we’ll sort it out." : undefined}>
           {state.missing && (
-            <Link href="/contact/" className={s.btnLarge}>
+            <Link href="/contact" className={s.btnLarge}>
               Contact us
             </Link>
           )}

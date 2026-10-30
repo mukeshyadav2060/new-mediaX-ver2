@@ -1,0 +1,974 @@
+[
+ {
+  "from": "/about-us",
+  "to": "/about"
+ },
+ {
+  "from": "/blogs/a-beginner's-guide-to-nft-marketing-strategy-in-2025:-funnels-tools-and-trends",
+  "to": "/blogs/nft-marketing-strategy-2026"
+ },
+ {
+  "from": "/blogs/a-beginner's-guide-to-nft-marketing-strategy-in-2025\\:-funnels-tools-and-trends",
+  "to": "/blogs/nft-marketing-strategy-2026"
+ },
+ {
+  "from": "/blogs/ai-the-superpower-of-marketing-in-2025",
+  "to": "/blogs/ai-marketing-strategies-and-benefits"
+ },
+ {
+  "from": "/blogs/ai-the-superpower-of-marketing-in-2026",
+  "to": "/blogs/ai-marketing-strategies-and-benefits"
+ },
+ {
+  "from": "/blogs/beginners-guide-to-nft-marketing-strategy",
+  "to": "/blogs/nft-marketing-strategy-2026"
+ },
+ {
+  "from": "/blogs/best-beginner-cryptos-for-2025:-solana-cardano-and-more",
+  "to": "/blogs/best-beginner-cryptos-2025-solana-cardano-more"
+ },
+ {
+  "from": "/blogs/best-crypto-trading-content-marketing-strategies",
+  "to": "/blogs/crypto-trading-content-marketing-strategies"
+ },
+ {
+  "from": "/blogs/blockchain-and-web3-pr:-navigating-the-future-of-communication",
+  "to": "/blogs/crypto-blockchain"
+ },
+ {
+  "from": "/blogs/blockchain-and-web3-pr\\:-navigating-the-future-of-communication",
+  "to": "/blogs/crypto-blockchain"
+ },
+ {
+  "from": "/blogs/crypto-blockchain-and-web3-success-starts-with-clear-communication",
+  "to": "/blogs/crypto-blockchain"
+ },
+ {
+  "from": "/blogs/crypto-influencer-marketing:-kol-marketing-guide",
+  "to": "/blogs/crypto-influencer-marketing"
+ },
+ {
+  "from": "/blogs/crypto-influencer-marketing\\:-kol-marketing-guide",
+  "to": "/blogs/crypto-influencer-marketing"
+ },
+ {
+  "from": "/blogs/defi-marketing-agency:-strategies-services-and-growth-solutions",
+  "to": "/blogs/defi-marketing-agency"
+ },
+ {
+  "from": "/blogs/defi-marketing-agency\\:-strategies-services-and-growth-solutions",
+  "to": "/blogs/defi-marketing-agency"
+ },
+ {
+  "from": "/blogs/dos-and-don'ts-of-writing-crypto-pr",
+  "to": "/blogs/dos-donts-writing-crypto-pr"
+ },
+ {
+  "from": "/blogs/ethical-crypto-marketing-compliance-in-2025",
+  "to": "/blogs/ethical-crypto-marketing"
+ },
+ {
+  "from": "/blogs/how-ai-is-transforming-marketing-in-2026:-strategies-and-benefits",
+  "to": "/blogs/ai-marketing-strategies-and-benefits"
+ },
+ {
+  "from": "/blogs/how-ai-is-transforming-marketing-in-2026\\:-strategies-and-benefits",
+  "to": "/blogs/ai-marketing-strategies-and-benefits"
+ },
+ {
+  "from": "/blogs/how-to-maximize-web3-press-release-reach-across-crypto-news-outlets",
+  "to": "/blogs/web3-press-release"
+ },
+ {
+  "from": "/blogs/how-to-select-a-blockchain-pr-agency-for-your-web3-project",
+  "to": "/blogs/blockchain-pr-agency"
+ },
+ {
+  "from": "/blogs/maximize-roi-with-web3-press-release-distribution-strategies",
+  "to": "/blogs/web3-press-release-distribution-roi"
+ },
+ {
+  "from": "/blogs/navigating-the-future:-web3-pr-strategies",
+  "to": "/blogs/navigating-future-web3-pr-strategies"
+ },
+ {
+  "from": "/blogs/nft-marketing-strategy-2026:-funnels-tools-and-trends",
+  "to": "/blogs/nft-marketing-strategy-2026"
+ },
+ {
+  "from": "/blogs/nft-marketing-strategy-2026\\:-funnels-tools-and-trends",
+  "to": "/blogs/nft-marketing-strategy-2026"
+ },
+ {
+  "from": "/blogs/roi-of-web3-press-release-distribution",
+  "to": "/blogs/web3-press-release-distribution-roi"
+ },
+ {
+  "from": "/blogs/the-ultimate-defi-guide-2025",
+  "to": "/blogs/7-powerful-defi-strategies-for-user-acquisition-in-2025"
+ },
+ {
+  "from": "/blogs/the-ultimate-defi-guide-2026",
+  "to": "/blogs/7-powerful-defi-strategies-for-user-acquisition-in-2025"
+ },
+ {
+  "from": "/blogs/top-5-tips-to-promote-your-next-nft-art-in-2025",
+  "to": "/blogs/tips-to-promote-your-next-nft-art"
+ },
+ {
+  "from": "/blogs/top-5-tips-to-promote-your-next-nft-art-in-2026",
+  "to": "/blogs/tips-to-promote-your-next-nft-art"
+ },
+ {
+  "from": "/blogs/unlock-business-growth:-key-benefits-of-hiring-a-press-release-agency",
+  "to": "/blogs/benefits-of-hiring-press-release-agency"
+ },
+ {
+  "from": "/blogs/unlock-business-growth\\:-key-benefits-of-hiring-a-press-release-agency",
+  "to": "/blogs/benefits-of-hiring-press-release-agency"
+ },
+ {
+  "from": "/blogs/unlocking-business-growth-the-key-benefits-of-hiring-a-press-release-agency",
+  "to": "/blogs/benefits-of-hiring-press-release-agency"
+ },
+ {
+  "from": "/blogs/what-are-kols-in-crypto-a-complete-guide-to-kol-marketing",
+  "to": "/blogs/kols-in-crypto"
+ },
+ {
+  "from": "/newsroom/8lends-and-cointelegraph-study:-solving-europe's-euro39b-sme-credit-gap",
+  "to": "/newsroom/8lends-cointelegraph-study-solving-europes-euro39b-sme-credit-gap"
+ },
+ {
+  "from": "/newsroom/ai(4)-unveils-agentic-ai-evolution:-the-first-self-learning-token",
+  "to": "/newsroom/ai-4-unveils-agentic-ai-evolution-first-self-learning-token"
+ },
+ {
+  "from": "/newsroom/allscale-and-bravo-enable-stablecoin-dining-at-450+-vancouver-spots",
+  "to": "/newsroom/allscale-and-bravo-enable-stablecoin-dining-at-450-vancouver-spots"
+ },
+ {
+  "from": "/newsroom/aro-network-raises-dollar5m-in-strategic-round-to-build-\"the-agentic-edge\"",
+  "to": "/newsroom/aro-network-raises-dollar5m-in-strategic-round-to-build-the-agentic-edge"
+ },
+ {
+  "from": "/newsroom/artura:-the-fastest-perp-dex-on-btc-prepares-to-launch-dollarara",
+  "to": "/newsroom/artura-fastest-perp-dex-btc-prepares-launch-dollarara"
+ },
+ {
+  "from": "/newsroom/as-stablecoins-surge-d'cent-delivers-a-wallet-built-for-action",
+  "to": "/newsroom/stablecoins-surge-dcent-delivers-wallet-built-action"
+ },
+ {
+  "from": "/newsroom/aster-launches-shield-mode:-protected-high-performance-on-chain-trading",
+  "to": "/newsroom/aster-launches-shield-mode-protected-high-performance-chain-trading"
+ },
+ {
+  "from": "/newsroom/atleta's-dollaratla-tge-and-mexc-listing:-a-pivotal-sports-web3-moment",
+  "to": "/newsroom/atletas-dollaratla-tge-mexc-listing-pivotal-sports-web3-moment"
+ },
+ {
+  "from": "/newsroom/bamboobuddies-(bbdy)-is-now-available-for-trading-on-lbank-exchange",
+  "to": "/newsroom/bamboobuddies-bbdy-is-now-available-for-trading-on-lbank-exchange"
+ },
+ {
+  "from": "/newsroom/bingx-becomes-scuderia-ferrari-hp's-first-ever-crypto-exchange-partner",
+  "to": "/newsroom/bingx-becomes-scuderia-ferrari-hps-first-ever-crypto-exchange-partner"
+ },
+ {
+  "from": "/newsroom/bingx-celebrates-40m-users-with-'beyond-the-alpha'-campaign",
+  "to": "/newsroom/bingx-celebrates-40m-users-beyond-alpha-campaign"
+ },
+ {
+  "from": "/newsroom/bingx-futures-trading-2.0:-powering-the-next-era-of-trading",
+  "to": "/newsroom/bingx-futures-trading-2-0-powering-next-era-trading"
+ },
+ {
+  "from": "/newsroom/bingx-to-list-lighter-(lit)-decentralized-derivatives-token",
+  "to": "/newsroom/bingx-to-list-lighter-lit-decentralized-derivatives-token"
+ },
+ {
+  "from": "/newsroom/bitcoin-and-ethereum-surge-as-little-pepe-raises-dollar28m+-targets-dollar0.10",
+  "to": "/newsroom/bitcoin-and-ethereum-surge-as-little-pepe-raises-dollar28m-targets-dollar0.10"
+ },
+ {
+  "from": "/newsroom/bitcoin-solaris-(btc-s)-is-now-available-for-trading-on-lbank-exchange",
+  "to": "/newsroom/bitcoin-solaris-btc-s-is-now-available-for-trading-on-lbank-exchange"
+ },
+ {
+  "from": "/newsroom/bitget-and-bitget-wallet-add-100+-ondo-tokenized-assets",
+  "to": "/newsroom/bitget-and-bitget-wallet-add-100-ondo-tokenized-assets"
+ },
+ {
+  "from": "/newsroom/bitget-vylepsuje-prevodni-funkci-convert-s-podporou-blokovych-obchodu-pro-hladsi-smenu-kryptomen",
+  "to": "/newsroom/bitget-vylepsuje-prevodni-funkci-convert-s-podporou-smenu-kryptomen"
+ },
+ {
+  "from": "/newsroom/bitmart-2025-mid-year-report:-users-top-12m-growth-driven-by-innovation",
+  "to": "/newsroom/bitmart-2025-mid-year-report-users-top-12m-growth-driven-innovation"
+ },
+ {
+  "from": "/newsroom/blackfort-pay-launches:-redefining-the-future-of-digital-payments",
+  "to": "/newsroom/blackfort-pay-launches-redefining-future-digital-payments"
+ },
+ {
+  "from": "/newsroom/blockchair-launches-\"dapp-gallery\"-to-enrich-blockchain-data-experience",
+  "to": "/newsroom/blockchair-launches-dapp-gallery-to-enrich-blockchain-data-experience"
+ },
+ {
+  "from": "/newsroom/blockoffice-acquires-activ8:-expanding-web3-marketing-and-mybw-reach",
+  "to": "/newsroom/blockoffice-acquires-activ8-expanding-web3-marketing-mybw-reach"
+ },
+ {
+  "from": "/newsroom/blocktalk-(btk)-is-now-available-for-trading-on-lbank-exchange",
+  "to": "/newsroom/blocktalk-btk-is-now-available-for-trading-on-lbank-exchange"
+ },
+ {
+  "from": "/newsroom/blofin-adds-apple-pay-support-enhancing-a-seamless-crypto-buying-experience-for-traders",
+  "to": "/newsroom/blofin-adds-apple-pay-support-enhancing-seamless-crypto-experience-traders"
+ },
+ {
+  "from": "/newsroom/blofin-berachain-and-cointelegraph-power-\"whalefield\"-token2049's-closing-afterparty-at-marquee-with-headliner-dj-blond:ish",
+  "to": "/newsroom/blofin-berachain-cointelegraph-power-whalefield-token2049s-blond-ish"
+ },
+ {
+  "from": "/newsroom/blofin-wow-2025-draws-370k+-users-and-dollar12.7b-trading-volume",
+  "to": "/newsroom/blofin-wow-2025-draws-370k-users-and-dollar12.7b-trading-volume"
+ },
+ {
+  "from": "/newsroom/btcc-names-nba's-jaren-jackson-jr.-ambassador-ahead-of-500k-usdt-event",
+  "to": "/newsroom/btcc-names-nbas-jaren-jackson-jr-ambassador-ahead-500k-usdt-event"
+ },
+ {
+  "from": "/newsroom/buck-launches-the-world's-first-savingscoin-with-7percent-annual-rewards",
+  "to": "/newsroom/buck-launches-worlds-first-savingscoin-7percent-annual-rewards"
+ },
+ {
+  "from": "/newsroom/cardano-price-analysis:-stuck-between-dollar0.50-and-dollar1-as-retail-picks-unilabs-finance-for-5x-roi",
+  "to": "/newsroom/cardano-price-analysis-stuck-between-dollar0-50-dollar1-5x-roi"
+ },
+ {
+  "from": "/newsroom/ccipher-and-mmos:-pioneering-the-web3-ai-smartphone-revolution",
+  "to": "/newsroom/ccipher-mmos-pioneering-web3-ai-smartphone-revolution"
+ },
+ {
+  "from": "/newsroom/centrifuge:-86percent-of-operators-prioritize-scaling-distribution",
+  "to": "/newsroom/centrifuge-86percent-operators-prioritize-scaling-distribution"
+ },
+ {
+  "from": "/newsroom/cnb-launches-cnb-app:-mobile-recharges-with-integrated-rewards",
+  "to": "/newsroom/cnb-launches-cnb-app-mobile-recharges-integrated-rewards"
+ },
+ {
+  "from": "/newsroom/coca-2.0-is-live:-self-custodial-banking-app-powered-by-stablecoins",
+  "to": "/newsroom/coca-2-0-is-live-self-custodial-banking-app-powered-stablecoins"
+ },
+ {
+  "from": "/newsroom/coinex-flexible-savings:-earn-industry-highest-apys",
+  "to": "/newsroom/coinex-flexible-savings-earn-industry-highest-apys"
+ },
+ {
+  "from": "/newsroom/coinup-2025-report:-growth-to-compliance-for-tier-2-exchanges",
+  "to": "/newsroom/coinup-2025-report-growth-compliance-tier-2-exchanges"
+ },
+ {
+  "from": "/newsroom/dappos-launches-xbubble:-an-ai-agent-that-learns-and-uses-ai-for-you",
+  "to": "/newsroom/dappos-launches-xbubble-ai-agent-that-learns-uses-ai-you"
+ },
+ {
+  "from": "/newsroom/deagentai-(aia)-hits-dollar457m-valuation-after-binance-listing",
+  "to": "/newsroom/deagentai-aia-hits-dollar457m-valuation-after-binance-listing"
+ },
+ {
+  "from": "/newsroom/dnx-group-unveils-the-next-frontier-in-private-equity:-robotic-rental",
+  "to": "/newsroom/dnx-group-unveils-next-frontier-private-equity-robotic-rental"
+ },
+ {
+  "from": "/newsroom/dollarstay-goes-live-on-kucoin:-staynex-brings-ai-travel-ecosystem-on-chain",
+  "to": "/newsroom/dollarstay-goes-live-kucoin-staynex-brings-ai-travel-ecosystem-chain"
+ },
+ {
+  "from": "/newsroom/doma-protocol-brings-40m+-onchain-domains-to-base-marketplace",
+  "to": "/newsroom/doma-protocol-brings-40m-onchain-domains-to-base-marketplace"
+ },
+ {
+  "from": "/newsroom/duckchain-aws-launch-dollar1.1m-hackathon:-ai-unchained",
+  "to": "/newsroom/duckchain-aws-launch-dollar1-1m-hackathon-ai-unchained"
+ },
+ {
+  "from": "/newsroom/echobit-winter-olympics-giveaway:-share-a-dollar200000-prize-pool",
+  "to": "/newsroom/echobit-winter-olympics-giveaway-share-dollar200000-prize-pool"
+ },
+ {
+  "from": "/newsroom/eternex-network-details-2026-roadmap-as-it-expands-real-world-asset-tokenization-infrastructure",
+  "to": "/newsroom/eternex-network-details-2026-roadmap-it-tokenization-infrastructure"
+ },
+ {
+  "from": "/newsroom/evervalue-coin-(eva)-consolidates-an-economic-model-with-growing-bitcoin-backing",
+  "to": "/newsroom/evervalue-coin-eva-consolidates-an-economic-model-with-growing-bitcoin-backing"
+ },
+ {
+  "from": "/newsroom/exclusive-interview:-pinkwallet-founder-building-innovative-payment-infrastructure-to-truly-\"liquefy\"-crypto-assets",
+  "to": "/newsroom/exclusive-interview-pinkwallet-founder-building-innovative-crypto-assets"
+ },
+ {
+  "from": "/newsroom/fexlon-launches-globally-in-early-2026-advancing-trusted-digital-financial-infrastructure",
+  "to": "/newsroom/fexlon-launches-globally-early-2026-advancing-financial-infrastructure"
+ },
+ {
+  "from": "/newsroom/fhenix-introduces-privacy-stages-and-demonstrates-the-first-private-version-of-base's-x402-payments",
+  "to": "/newsroom/fhenix-introduces-privacy-stages-demonstrates-first-private-x402-payments"
+ },
+ {
+  "from": "/newsroom/finestel-rolls-out-tradingview-bot-and-custom-signal-bot-to-boost-crypto-trading-automation",
+  "to": "/newsroom/finestel-rolls-out-tradingview-bot-custom-signal-bot-trading-automation"
+ },
+ {
+  "from": "/newsroom/flipster-fze-secures-in-principle-approval-from-vara-reinforcing-commitment-to-regulated-crypto-access",
+  "to": "/newsroom/flipster-fze-secures-principle-approval-vara-reinforcing-crypto-access"
+ },
+ {
+  "from": "/newsroom/fluence-platform:-the-flt-token-its-powerhouse-utility-and-value-drivers",
+  "to": "/newsroom/fluence-platform-flt-token-its-powerhouse-utility-value-drivers"
+ },
+ {
+  "from": "/newsroom/fomo-is-real!-presale-sold-out-in-just-4-hours:-atm-game-fund-and-342-games-launch-runestone-kingdom-public-beta-on-august-8",
+  "to": "/newsroom/fomo-is-real-presale-sold-out-just-4-august-8"
+ },
+ {
+  "from": "/newsroom/from-complex-to-seamless:-t0ns-introduces-a-new-way-to-trade-on-ton",
+  "to": "/newsroom/complex-seamless-t0ns-introduces-new-way-trade-ton"
+ },
+ {
+  "from": "/newsroom/from-seed-capital-to-everyday-defi:-why-crpjet-could-change-how-we-use-crypto",
+  "to": "/newsroom/seed-capital-everyday-defi-why-crpjet-could-change-use-crypto"
+ },
+ {
+  "from": "/newsroom/fynder.ai-launches-publicly-with-proprietary-search-ai-aims-to-become-the-\"ai-of-everything\"",
+  "to": "/newsroom/fynder-ai-launches-publicly-proprietary-search-ai-aims-ai-everything"
+ },
+ {
+  "from": "/newsroom/ga3in-ventures-and-fibonacci-capital-host-successful-web3-and-ai-pitch-competition-at-chicago-tech-week",
+  "to": "/newsroom/ga3in-ventures-fibonacci-capital-host-successful-web3-ai-tech-week"
+ },
+ {
+  "from": "/newsroom/galactic-celebration-break-beyond-boundaries:-htx-dao-x-tron-token2049-afterparty-set-to-ignite-the-ultimate-web3-feast",
+  "to": "/newsroom/galactic-celebration-break-beyond-boundaries-htx-dao-x-web3-feast"
+ },
+ {
+  "from": "/newsroom/gamma-prime-showcased-its-tokenized-global-marketplace-for-private-investments-at-tokenized-capital-summit-in-hong-kong",
+  "to": "/newsroom/gamma-prime-showcased-its-tokenized-global-marketplace-private-hong-kong"
+ },
+ {
+  "from": "/newsroom/gate-and-world-liberty-financial-reach-strategic-milestone:-gate-becomes-second-largest-cex-holder-of-usd1",
+  "to": "/newsroom/gate-world-liberty-financial-reach-strategic-milestone-gate-holder-usd1"
+ },
+ {
+  "from": "/newsroom/gate-august-2025-transparency-report-highlights:-derivatives-growth-ecosystem-expansion-and-dollar12b-reserves",
+  "to": "/newsroom/gate-august-2025-transparency-report-highlights-dollar12b-reserves"
+ },
+ {
+  "from": "/newsroom/gate-powers-the-token-of-love-music-festival-featuring-decrypt-co-creating-a-new-ecosystem-where-web3-meets-mainstream-culture",
+  "to": "/newsroom/gate-powers-token-love-music-festival-featuring-decrypt-mainstream-culture"
+ },
+ {
+  "from": "/newsroom/gate-unveils-gate-travel-with-sleap.io-bringing-1-million-hotels-and-150-airlines-to-35-million-crypto-users",
+  "to": "/newsroom/gate-unveils-gate-travel-sleap-io-bringing-1-crypto-users"
+ },
+ {
+  "from": "/newsroom/gemini:-what-is-the-bitcoin-credit-cardtm-and-how-does-it-work",
+  "to": "/newsroom/gemini-what-is-bitcoin-credit-cardtm-how-does-it-work"
+ },
+ {
+  "from": "/newsroom/giants-protocol-powers-tokenization-of-real-estate-for-the-assembly-place-backed-by-singapore's-sovereign-wealth-fund",
+  "to": "/newsroom/giants-protocol-powers-tokenization-real-estate-assembly-place-wealth-fund"
+ },
+ {
+  "from": "/newsroom/global-blockchain-business-council-announces-leadership-global-growth-and-industry-milestones-at-blockchain-central-davos",
+  "to": "/newsroom/global-blockchain-business-council-announces-leadership-central-davos"
+ },
+ {
+  "from": "/newsroom/goat-gaming-drops-underground-pepe-a-meme-fueled-telegram-game-where-collectibles-drive-the-action",
+  "to": "/newsroom/goat-gaming-drops-underground-pepe-meme-fueled-telegram-drive-action"
+ },
+ {
+  "from": "/newsroom/goldfish-to-launch-gfin-airdrop-as-governance-layer-for-gold-backed-protocol-goes-live",
+  "to": "/newsroom/goldfish-launch-gfin-airdrop-governance-layer-gold-backed-goes-live"
+ },
+ {
+  "from": "/newsroom/goodcryptox-launches-good-token-with-revenue-sharing-and-other-benefits-to-its-community",
+  "to": "/newsroom/goodcryptox-launches-good-token-revenue-sharing-other-its-community"
+ },
+ {
+  "from": "/newsroom/hash-hedge-and-walbi-launch-the-world-series-of-crypto-trading-(wsct):-the-first-global-trading-series-with-a-live-human-vs-ai-final-in-dubai",
+  "to": "/newsroom/hash-hedge-walbi-launch-world-series-crypto-trading-final-dubai"
+ },
+ {
+  "from": "/newsroom/horizen-labs-launches-vela:-tee-confidential-compute-for-web3",
+  "to": "/newsroom/horizen-labs-launches-vela-tee-confidential-compute-web3"
+ },
+ {
+  "from": "/newsroom/how-oppiwallet's-virtual-and-physical-cards-eliminate-the-crypto-to-fiat-hassle",
+  "to": "/newsroom/how-oppiwallets-virtual-physical-cards-eliminate-crypto-fiat-hassle"
+ },
+ {
+  "from": "/newsroom/how-these-3-privacy-protocols-are-becoming-defi's-next-infrastructure-layer",
+  "to": "/newsroom/how-these-3-privacy-protocols-are-becoming-defis-next-infrastructure-layer"
+ },
+ {
+  "from": "/newsroom/htx-announces-listing-of-usde-expanding-global-access-to-ethena's-delta-neutral-synthetic-dollar",
+  "to": "/newsroom/htx-announces-listing-usde-expanding-global-access-synthetic-dollar"
+ },
+ {
+  "from": "/newsroom/htx-hot-listings-weekly-recap-(july-15-21):-ethereum-leads-the-rally-as-market-trends-ignite-wealth-effect",
+  "to": "/newsroom/htx-hot-listings-weekly-recap-july-15-21-wealth-effect"
+ },
+ {
+  "from": "/newsroom/htx-launches-12th-anniversary-carnival-and-embarks-on-a-new-global-journey-after-12-years-of-resilience-and-innovation",
+  "to": "/newsroom/htx-launches-12th-anniversary-carnival-embarks-new-resilience-innovation"
+ },
+ {
+  "from": "/newsroom/htx-launches-crypto-gifts-feature:-ushering-in-the-on-chain-social-networking-carnival-with-180000-usdt-in-giveaways",
+  "to": "/newsroom/htx-launches-crypto-gifts-feature-ushering-chain-social-usdt-giveaways"
+ },
+ {
+  "from": "/newsroom/htx-opens-trading-for-0g-(zero-gravity)",
+  "to": "/newsroom/htx-opens-trading-for-0g-zero-gravity"
+ },
+ {
+  "from": "/newsroom/htx-opens-trading-for-camp-(camp-network)",
+  "to": "/newsroom/htx-opens-trading-for-camp-camp-network"
+ },
+ {
+  "from": "/newsroom/htx-opens-trading-for-cookie-(cookie-dao)",
+  "to": "/newsroom/htx-opens-trading-for-cookie-cookie-dao"
+ },
+ {
+  "from": "/newsroom/htx-opens-trading-for-prove-(succinct)",
+  "to": "/newsroom/htx-opens-trading-for-prove-succinct"
+ },
+ {
+  "from": "/newsroom/htx-opens-trading-for-towns-(towns)",
+  "to": "/newsroom/htx-opens-trading-for-towns-towns"
+ },
+ {
+  "from": "/newsroom/htx-pay-unveils-long-term-strategy-under-ad's-leadership:-a-commitment-to-sincerity-simplicity-and-practicality",
+  "to": "/newsroom/htx-pay-unveils-long-term-strategy-under-ads-simplicity-practicality"
+ },
+ {
+  "from": "/newsroom/imagen-network-(image)-rolls-out-xrp-infrastructure-to-strengthen-scalable-social-curation",
+  "to": "/newsroom/imagen-network-image-rolls-out-xrp-infrastructure-social-curation"
+ },
+ {
+  "from": "/newsroom/infinite-possibilities-announces-upcoming-launch-of-proof-of-activity-dex-and-ip-membership-program",
+  "to": "/newsroom/infinite-possibilities-announces-upcoming-launch-proof-membership-program"
+ },
+ {
+  "from": "/newsroom/innovaccer-launches-comettm:-bringing-always-on-omnichannel-ai-agents-to-the-front-line-of-patient-access",
+  "to": "/newsroom/innovaccer-launches-comettm-bringing-always-omnichannel-ai-patient-access"
+ },
+ {
+  "from": "/newsroom/innovation-leads-stability-endures:-join-three-major-htx-events-to-unlock-the-iphone-17-and-rich-rewards",
+  "to": "/newsroom/innovation-leads-stability-endures-join-three-major-htx-rich-rewards"
+ },
+ {
+  "from": "/newsroom/inspired-ai-announces-over-1000percent-year-over-year-growth-for-talkme-ai-highlighting-product-innovation-and-global-expansion",
+  "to": "/newsroom/inspired-ai-announces-over-1000percent-year-over-year-global-expansion"
+ },
+ {
+  "from": "/newsroom/introducing-valygo:-a-smarter-platform-for-crypto-fiat-and-payments",
+  "to": "/newsroom/introducing-valygo-smarter-platform-crypto-fiat-payments"
+ },
+ {
+  "from": "/newsroom/invity-introduces-smartstax:-a-new-approach-to-navigating-bitcoin-market-cycles",
+  "to": "/newsroom/invity-introduces-smartstax-new-approach-navigating-bitcoin-market-cycles"
+ },
+ {
+  "from": "/newsroom/itrustcapital-surpasses-dollar16-billion-in-total-crypto-transactions-closing-out-a-standout-2025",
+  "to": "/newsroom/itrustcapital-surpasses-dollar16-billion-total-crypto-standout-2025"
+ },
+ {
+  "from": "/newsroom/ixopay-launches-new-tokenex-packages-setting-the-standard-for-token-first-payments-in-the-era-of-agentic-commerce",
+  "to": "/newsroom/ixopay-launches-new-tokenex-packages-setting-standard-agentic-commerce"
+ },
+ {
+  "from": "/newsroom/jack-ma-bets-big-on-ethereum-alibaba-founder-indirectly-invests-in-ethereum:-signaling-a-\"digital-gold\"-strategy-for-asset-allocation",
+  "to": "/newsroom/jack-ma-bets-big-ethereum-alibaba-founder-indirectly-asset-allocation"
+ },
+ {
+  "from": "/newsroom/ju.com-to-host-hong-kong-stock-liquidity-global-digital-summit-on-september-20-pioneering-new-era-of-financial-innovation",
+  "to": "/newsroom/ju-com-host-hong-kong-stock-liquidity-global-financial-innovation"
+ },
+ {
+  "from": "/newsroom/ju.com-unveils-the-next-stage-of-its-ecosystem-at-token2049-singapore-with-jupay-and-point.-click.-trade.",
+  "to": "/newsroom/ju-com-unveils-next-stage-its-ecosystem-at-click-trade"
+ },
+ {
+  "from": "/newsroom/jucoin's-jutrust-featured-at-seoul's-5m-protocol-global-summit",
+  "to": "/newsroom/jucoins-jutrust-featured-at-seouls-5m-protocol-global-summit"
+ },
+ {
+  "from": "/newsroom/jucoin-rewrites-the-impossible-and-transforms-into-ju.com-revolutionary-j-symbol-makes-\"impossible\"-become-\"i'm-possible\"-for-50-million-global-users",
+  "to": "/newsroom/jucoin-rewrites-impossible-transforms-into-ju-com-global-users"
+ },
+ {
+  "from": "/newsroom/justin-sun-enters-the-perp-dex-arena:-sunperp-launches-the-\"lowest-trading-fees-in-the-market\"",
+  "to": "/newsroom/justin-sun-enters-perp-dex-arena-sunperp-launches-fees-market"
+ },
+ {
+  "from": "/newsroom/kalshi-integrates-tron-network-expanding-onchain-liquidity-access-for-world's-largest-prediction-market",
+  "to": "/newsroom/kalshi-integrates-tron-network-expanding-onchain-prediction-market"
+ },
+ {
+  "from": "/newsroom/kustodia-launches-smart-contract-escrow-for-latam's-dollar600m-fraud-crisis",
+  "to": "/newsroom/kustodia-launches-smart-contract-escrow-latams-dollar600m-fraud-crisis"
+ },
+ {
+  "from": "/newsroom/kvants-vaults-close-july-2025-with-22percent-net-return-as-onchain-capital-tvl-explodes-public-access-launch-begins",
+  "to": "/newsroom/kvants-vaults-close-july-2025-22percent-net-return-launch-begins"
+ },
+ {
+  "from": "/newsroom/lbank-labs-to-host-\"1001-festival-seoul\"-in-south-korea-during-kbw2025",
+  "to": "/newsroom/lbank-labs-to-host-1001-festival-seoul-in-south-korea-during-kbw2025"
+ },
+ {
+  "from": "/newsroom/leading-web3-full-stack-ai-app-building-infrastructure-openserv-names-joey-kheireddine-as-head-of-blockchain",
+  "to": "/newsroom/leading-web3-full-stack-ai-app-building-infrastructure-head-blockchain"
+ },
+ {
+  "from": "/newsroom/link",
+  "to": "https://www.lbank.com"
+ },
+ {
+  "from": "/newsroom/litrbull:-building-a-sustainable-utility-first-gamefi-economy-around-dollarlitr",
+  "to": "/newsroom/litrbull-building-sustainable-utility-first-gamefi-around-dollarlitr"
+ },
+ {
+  "from": "/newsroom/little-pepe-presale-hits-dollar28m:-nears-stage-13-sellout",
+  "to": "/newsroom/little-pepe-presale-hits-dollar28m-nears-stage-13-sellout"
+ },
+ {
+  "from": "/newsroom/litxchange-files-ai-investing-patent-unveils-lityield-and-litstaking-and-extends-blockbuster-dollar1-million+-reg-cf-raise",
+  "to": "/newsroom/litxchange-files-ai-investing-patent-unveils-lityield-litstaking-cf-raise"
+ },
+ {
+  "from": "/newsroom/loaded-lions:-from-pfp-pioneer-to-entertainment-powerhouse",
+  "to": "/newsroom/loaded-lions-pfp-pioneer-entertainment-powerhouse"
+ },
+ {
+  "from": "/newsroom/makachain-and-estable.io-collaborate-to-simplify-stablecoin-payments-for-everyday-use",
+  "to": "/newsroom/makachain-estable-io-collaborate-simplify-stablecoin-payments-everyday-use"
+ },
+ {
+  "from": "/newsroom/makachain-announces-arse-stablecoin-integration-enabling-access-to-6000+-businesses-via-kripton",
+  "to": "/newsroom/makachain-announces-arse-stablecoin-integration-enabling-via-kripton"
+ },
+ {
+  "from": "/newsroom/matrixport-launches-u.s.-stock-trading-via-stablecoins-establishing-a-\"digital-assets-+-licensed-broker\"-ecosystem",
+  "to": "/newsroom/matrixport-launches-u-s-stock-trading-via-stablecoins-broker-ecosystem"
+ },
+ {
+  "from": "/newsroom/mento-selects-wormhole-as-its-official-interoperability-provider-to-power-multichain-fx",
+  "to": "/newsroom/mento-selects-wormhole-its-official-interoperability-multichain-fx"
+ },
+ {
+  "from": "/newsroom/metallicus-and-daland-partner-to-provide-regulated-stablecoin-and-digital-asset-infrastructure-to-financial-institutions",
+  "to": "/newsroom/metallicus-daland-partner-provide-regulated-financial-institutions"
+ },
+ {
+  "from": "/newsroom/mevstake-2.0:-transition-to-personal-mev-bots-in-mevolaxy",
+  "to": "/newsroom/mevstake-2-0-transition-personal-mev-bots-mevolaxy"
+ },
+ {
+  "from": "/newsroom/mexc-introduces-first-trade-protection-program-offering-up-to-500000-usdt-in-liquidation-coverage",
+  "to": "/newsroom/mexc-introduces-first-trade-protection-program-liquidation-coverage"
+ },
+ {
+  "from": "/newsroom/mexc-july-token-listings-surge-to-35920percent-peak-returns-as-ai-infrastructure-dominates-market",
+  "to": "/newsroom/mexc-july-token-listings-surge-35920percent-peak-returns-dominates-market"
+ },
+ {
+  "from": "/newsroom/mexc-launches-galaxy-quest:-win-up-to-1000-usdt-rewards",
+  "to": "/newsroom/mexc-launches-galaxy-quest-win-up-1000-usdt-rewards"
+ },
+ {
+  "from": "/newsroom/mexc-launches-linea-launchpad-with-50percent-discount-for-new-users-and-a-prize-pool-of-6800000-linea-and-10000-usdt",
+  "to": "/newsroom/mexc-launches-linea-launchpad-50percent-discount-new-users-10000-usdt"
+ },
+ {
+  "from": "/newsroom/mexc-launches-mezo-(mezo)-airdrop+-event-with-dollar50000-in-mezo-and-15000-usdt-in-rewards",
+  "to": "/newsroom/mexc-launches-mezo-mezo-airdrop-event-dollar50000-mezo-15000-usdt-rewards"
+ },
+ {
+  "from": "/newsroom/mexc-lists-cycle-network-(cyc)-with-dollar100000-in-cyc-and-15000-usdt-prize-pool-event",
+  "to": "/newsroom/mexc-lists-cycle-network-cyc-dollar100000-cyc-15000-pool-event"
+ },
+ {
+  "from": "/newsroom/mexc-lists-dappos-(dos)-with-dollar60000-worth-of-dos-and-10000-usdt-in-airdrop+-rewards",
+  "to": "/newsroom/mexc-lists-dappos-dos-dollar60000-worth-dos-10000-usdt-airdrop-rewards"
+ },
+ {
+  "from": "/newsroom/mexc-lists-pharos-(pros)-with-41.6k-pros-and-10k-usdt-airdrop-pool",
+  "to": "/newsroom/mexc-lists-pharos-pros-with-41.6k-pros-and-10k-usdt-airdrop-pool"
+ },
+ {
+  "from": "/newsroom/mexc-partners-with-story-network-(ip)-to-launch-dollar1-million-prize-pool-campaign",
+  "to": "/newsroom/mexc-partners-with-story-network-ip-to-launch-dollar1-million-prize-pool-campaign"
+ },
+ {
+  "from": "/newsroom/mexc-rolls-out-\"proof-of-trust\"-to-strengthen-transparency-and-user-safety",
+  "to": "/newsroom/mexc-rolls-out-proof-of-trust-to-strengthen-transparency-and-user-safety"
+ },
+ {
+  "from": "/newsroom/midnight-network-surpasses-1-billion-dollarnight-claims-milestone-the-largest-glacier-drop-in-history",
+  "to": "/newsroom/midnight-network-surpasses-1-billion-dollarnight-claims-drop-history"
+ },
+ {
+  "from": "/newsroom/mova-\"mars\"-testnet-officially-launches-achieving-breakthroughs-in-both-performance-and-compliance",
+  "to": "/newsroom/mova-mars-testnet-officially-launches-achieving-performance-compliance"
+ },
+ {
+  "from": "/newsroom/mova-partners-with-join-the-planet-foundation-to-support-messi-themed-philanthropy-nfts-on-chain",
+  "to": "/newsroom/mova-partners-join-planet-foundation-support-messi-themed-nfts-chain"
+ },
+ {
+  "from": "/newsroom/movachain-secures-dollar100m-valuation-backed-by-aqua1-foundation-and-uae's-geonova-capital",
+  "to": "/newsroom/movachain-secures-dollar100m-valuation-backed-aqua1-geonova-capital"
+ },
+ {
+  "from": "/newsroom/musandam-tours-expands-dubai-based-offerings-to-meet-rising-cross-border-travel-demand",
+  "to": "/newsroom/musandam-tours-expands-dubai-based-offerings-meet-rising-travel-demand"
+ },
+ {
+  "from": "/newsroom/nansen-ai-launches-as-the-first-agentic-trading-platform-for-onchain-traders-and-investors",
+  "to": "/newsroom/nansen-ai-launches-first-agentic-trading-platform-traders-investors"
+ },
+ {
+  "from": "/newsroom/neobanc-reports-800percent-growth-in-5-months-since-launch-allowing-thousands-to-save-money-on-rent-each-month-with-cash-back",
+  "to": "/newsroom/neobanc-reports-800percent-growth-5-months-since-launch-cash-back"
+ },
+ {
+  "from": "/newsroom/neuravision-unveils-an-innovative-system-for-creating-and-editing-8k-video-up-to-60-seconds-long-rivaling-hollywood-production-quality",
+  "to": "/newsroom/neuravision-unveils-innovative-system-creating-editing-production-quality"
+ },
+ {
+  "from": "/newsroom/new-apoe4-app-uses-ai-digital-twins-to-help-25percent-of-population-at-high-alzheimer's-risk",
+  "to": "/newsroom/new-apoe4-app-uses-ai-digital-twins-help-alzheimers-risk"
+ },
+ {
+  "from": "/newsroom/nextech3d.ai-launches-\"nextech-event-ai\"-a-unified-ai-event-operating-system-for-its-fortune-500-customers",
+  "to": "/newsroom/nextech3d-ai-launches-nextech-event-ai-unified-ai-500-customers"
+ },
+ {
+  "from": "/newsroom/nftopia-5-metaverse-convention-launches-groundbreaking-web3-expo:-16-17-august-2025",
+  "to": "/newsroom/nftopia-5-metaverse-convention-launches-groundbreaking-web3-august-2025"
+ },
+ {
+  "from": "/newsroom/nimbus-capital-and-chimera-wallet-announce-dollar15-million-strategic-partnership-to-expand-defi-infrastructure-on-bitcoin",
+  "to": "/newsroom/nimbus-capital-chimera-wallet-announce-dollar15-infrastructure-bitcoin"
+ },
+ {
+  "from": "/newsroom/noah-ai:-build-your-solana-app-in-seconds",
+  "to": "/newsroom/noah-ai-build-your-solana-app-seconds"
+ },
+ {
+  "from": "/newsroom/okx-ventures-backs-stbl-in-strategic-partnership-with-hamilton-lane-and-securitize-to-launch-rwa-backed-stablecoin-on-x-layer",
+  "to": "/newsroom/okx-ventures-backs-stbl-strategic-partnership-hamilton-lane-x-layer"
+ },
+ {
+  "from": "/newsroom/one-ocean-foundation-and-electroneum-joint-project-nominated-for-\"award-of-excellence-2025\"-by-premio-arete",
+  "to": "/newsroom/one-ocean-foundation-electroneum-joint-project-nominated-premio-arete"
+ },
+ {
+  "from": "/newsroom/onequity-secures-mauritius-investment-dealer-license-reinforcing-global-regulatory-standing",
+  "to": "/newsroom/onequity-secures-mauritius-investment-dealer-license-regulatory-standing"
+ },
+ {
+  "from": "/newsroom/openpayd-wins-'best-early-stage-or-future-payments-initiative'-award-for-stablecoin-infrastructure-innovation",
+  "to": "/newsroom/openpayd-wins-best-early-stage-future-payments-infrastructure-innovation"
+ },
+ {
+  "from": "/newsroom/ostium-introduces-on-chain-0dte-perpetuals-for-stock-trading-offering-a-new-alternative-to-options-and-cfds",
+  "to": "/newsroom/ostium-introduces-chain-0dte-perpetuals-stock-trading-options-cfds"
+ },
+ {
+  "from": "/newsroom/oversubscribed-dollar4.7m-series-a-fuels-creatordb's-expansion-of-vertical-ai-solutions-for-the-creator-economy",
+  "to": "/newsroom/oversubscribed-dollar4-7m-series-fuels-creatordbs-creator-economy"
+ },
+ {
+  "from": "/newsroom/payram-adds-polygon-support-expanding-multi-chain-infrastructure-for-permissionless-stablecoin-payments",
+  "to": "/newsroom/payram-adds-polygon-support-expanding-multi-chain-stablecoin-payments"
+ },
+ {
+  "from": "/newsroom/philcoin-(phl)-listing-on-bitmart-marks-a-milestone-for-blockchain-driven-social-impact",
+  "to": "/newsroom/philcoin-phl-listing-bitmart-marks-milestone-blockchain-social-impact"
+ },
+ {
+  "from": "/newsroom/poloniex-11th-anniversary:-win-share-of-200000-usdt-rewards",
+  "to": "/newsroom/poloniex-11th-anniversary-win-share-200000-usdt-rewards"
+ },
+ {
+  "from": "/newsroom/portal-to-bitcoin-powers-league-of-traders'-first-trustless-cross-chain-pilot",
+  "to": "/newsroom/portal-bitcoin-powers-league-traders-first-trustless-cross-chain-pilot"
+ },
+ {
+  "from": "/newsroom/public-masterpiece-announces-pmt-chain-a-layer-1-built-for-the-real-world-asset-economy",
+  "to": "/newsroom/public-masterpiece-announces-pmt-chain-layer-1-built-asset-economy"
+ },
+ {
+  "from": "/newsroom/pulsechain:-the-established-scalable-platform-where-ethereum-projects-thrive",
+  "to": "/newsroom/pulsechain-established-scalable-platform-where-ethereum-projects-thrive"
+ },
+ {
+  "from": "/newsroom/qingdao-copyright-center-partners-with-rwachain-to-build-hong-kong's-first-rwa-layer1-ecosystem",
+  "to": "/newsroom/qingdao-copyright-center-partners-rwachain-build-hong-layer1-ecosystem"
+ },
+ {
+  "from": "/newsroom/qubetics-(tics)-has-been-officially-listed-on-lbank-exchange",
+  "to": "/newsroom/qubetics-tics-has-been-officially-listed-on-lbank-exchange"
+ },
+ {
+  "from": "/newsroom/qutom-sets-new-benchmark-in-green-energy-trading-with-record-breaking-first-time-investor-engagement",
+  "to": "/newsroom/qutom-sets-new-benchmark-green-energy-trading-record-investor-engagement"
+ },
+ {
+  "from": "/newsroom/qxmp-labs-announces-activation-of-rwa-liquidity-architecture-and-large-scale-on-chain-asset-registration",
+  "to": "/newsroom/qxmp-labs-announces-activation-rwa-liquidity-asset-registration"
+ },
+ {
+  "from": "/newsroom/r0ar-announces-node-sale:-democratizing-layer-2-infrastructure-and-rewarding-community-participation",
+  "to": "/newsroom/r0ar-announces-node-sale-democratizing-layer-2-community-participation"
+ },
+ {
+  "from": "/newsroom/recruiting-season-is-open-build-your-meme-army!",
+  "to": "/newsroom/recruiting-season-is-open-build-your-meme-army"
+ },
+ {
+  "from": "/newsroom/renaiss-showcases-dollar15m+-physical-collectibles-at-consensus-demonstrating-infrastructure-on-bnb-chain",
+  "to": "/newsroom/renaiss-showcases-dollar15m-physical-collectibles-at-consensus-bnb-chain"
+ },
+ {
+  "from": "/newsroom/revolutionary-seedless-wallet-launches-with-\"remember-me\"-campaign-offering-100000-silver-scott-token-grand-prize",
+  "to": "/newsroom/revolutionary-seedless-wallet-launches-remember-me-campaign-grand-prize"
+ },
+ {
+  "from": "/newsroom/rewardy-wallet-becomes-korea's-largest-digital-asset-wallet-just-10-months-after-the-launch",
+  "to": "/newsroom/rewardy-wallet-becomes-koreas-largest-digital-asset-wallet-after-launch"
+ },
+ {
+  "from": "/newsroom/roam-unveils-super-staking-pool-upgraded-points-mechanism-and-app-2.0driving-long-term-growth-with-a-dual-deflationary-model",
+  "to": "/newsroom/roam-unveils-super-staking-pool-upgraded-points-deflationary-model"
+ },
+ {
+  "from": "/newsroom/runwago-announces-official-dollarrunwago-tge-date:-september-18-2025",
+  "to": "/newsroom/runwago-announces-official-dollarrunwago-tge-date-september-18-2025"
+ },
+ {
+  "from": "/newsroom/safe-project-reports-dollar10m-revenue-targets-break-even-and-dollar100m-arr-path-by-2030",
+  "to": "/newsroom/safe-project-reports-dollar10m-revenue-targets-break-even-path-2030"
+ },
+ {
+  "from": "/newsroom/safeblock-integrates-venus-protocol-making-seamless-defi-staking-accessible-to-everyone",
+  "to": "/newsroom/safeblock-integrates-venus-protocol-making-seamless-accessible-everyone"
+ },
+ {
+  "from": "/newsroom/saros-foundation-launches-dollarsaros-buyback-program-and-completes-100m-token-purchase",
+  "to": "/newsroom/saros-foundation-launches-dollarsaros-buyback-program-token-purchase"
+ },
+ {
+  "from": "/newsroom/scb-10x-backs-pokee-ai's-vision-for-agent-powered-workflows",
+  "to": "/newsroom/scb-10x-backs-pokee-ais-vision-agent-powered-workflows"
+ },
+ {
+  "from": "/newsroom/seafi-launches-dollar1-million-mega-ido-for-elympics-(dollarelp)-with-whitelist-and-reward-campaigns-active-until-july-20",
+  "to": "/newsroom/seafi-launches-dollar1-million-mega-ido-elympics-dollarelp-july-20"
+ },
+ {
+  "from": "/newsroom/shift-secures-snz-holdings-as-lead-investor-in-a-dollar2m-seed-round-to-launch-tokenized-stocks-value-on-solana",
+  "to": "/newsroom/shift-secures-snz-holdings-lead-investor-dollar2m-seed-value-solana"
+ },
+ {
+  "from": "/newsroom/silqfi-and-helix-pioneer-shariah-compliant-tokenized-invoice",
+  "to": "/newsroom/silqfi-helix-pioneer-shariah-compliant-tokenized-invoice-embedded-finance"
+ },
+ {
+  "from": "/newsroom/silqfi-and-helix-pioneer-shariah-compliant-tokenized-invoice-financing-to-bridge-defi-and-embedded-finance",
+  "to": "/newsroom/silqfi-helix-pioneer-shariah-compliant-tokenized-invoice-embedded-finance"
+ },
+ {
+  "from": "/newsroom/skywise-crypto-inc-(sky-crypto)-launches-sky-crypto-academy-enabling-users-to-access-learning-features-through-their-personal-dashboards",
+  "to": "/newsroom/skywise-crypto-inc-sky-crypto-launches-sky-crypto-personal-dashboards"
+ },
+ {
+  "from": "/newsroom/skywork-launches-unipic-2.0-reshaping-the-future-of-ai-imaging-and-unlocking-new-investment-horizons",
+  "to": "/newsroom/skywork-launches-unipic-2-0-reshaping-future-ai-investment-horizons"
+ },
+ {
+  "from": "/newsroom/smart-router-powered-by-lava-network-maximizes-reliability-for-the-wyoming-state-sponsored-stablecoin",
+  "to": "/newsroom/smart-router-powered-lava-network-maximizes-sponsored-stablecoin"
+ },
+ {
+  "from": "/newsroom/smarter-futures-trading-begins:-onebullex-launches-beta-with-bots-rewards-and-community-at-the-core",
+  "to": "/newsroom/smarter-futures-trading-begins-onebullex-launches-beta-bots-at-core"
+ },
+ {
+  "from": "/newsroom/spiko-and-concordium-partner-to-eliminate-escrow-and-transform-dollar300b-trade-finance-market",
+  "to": "/newsroom/spiko-concordium-partner-eliminate-escrow-transform-finance-market"
+ },
+ {
+  "from": "/newsroom/superfortune-launches-ai-powered-mobile-app-targeting-dollar392-billion-metaphysics-market-beyond-web3",
+  "to": "/newsroom/superfortune-launches-ai-powered-mobile-app-targeting-beyond-web3"
+ },
+ {
+  "from": "/newsroom/t-rize-group-lists-dollarrize-token-on-revolut-app-expanding-global-access-to-tokenized-real-world-assets",
+  "to": "/newsroom/t-rize-group-lists-dollarrize-token-revolut-app-world-assets"
+ },
+ {
+  "from": "/newsroom/taisu-ventures-and-keio-fintek-center-launch-keio-chainhack-2026-focused-on-web3-innovation",
+  "to": "/newsroom/taisu-ventures-keio-fintek-center-launch-keio-chainhack-web3-innovation"
+ },
+ {
+  "from": "/newsroom/tel-listed-on-kraken:-telecom-blockchain-standard-gains-access-to-global-crypto-markets",
+  "to": "/newsroom/tel-listed-kraken-telecom-blockchain-standard-gains-access-crypto-markets"
+ },
+ {
+  "from": "/newsroom/the-ux-revolution-in-web3:-projects-making-crypto-simple",
+  "to": "/newsroom/ux-revolution-web3-projects-making-crypto-simple"
+ },
+ {
+  "from": "/newsroom/todin-wants-to-redefine-e-commerce:-matching-shoppers-with-the-right-stores-powered-by-web3",
+  "to": "/newsroom/todin-wants-redefine-e-commerce-matching-shoppers-right-powered-web3"
+ },
+ {
+  "from": "/newsroom/toobit-adds-36percent-apr-on-solana-(sol)-to-high-yield-earn-series",
+  "to": "/newsroom/toobit-adds-36percent-apr-on-solana-sol-to-high-yield-earn-series"
+ },
+ {
+  "from": "/newsroom/toobit-debuts-futures-position-vouchers:-100percent-profit-margin",
+  "to": "/newsroom/toobit-debuts-futures-position-vouchers-100percent-profit-margin"
+ },
+ {
+  "from": "/newsroom/toobit-hosts-exclusive-presale-for-mechaconquest-(dollarmcq)-on-its-upgraded-speed-zone",
+  "to": "/newsroom/toobit-hosts-exclusive-presale-mechaconquest-dollarmcq-its-speed-zone"
+ },
+ {
+  "from": "/newsroom/toobit-introduces-+1-vip-status-upgrade-for-transferring-traders",
+  "to": "/newsroom/toobit-introduces-1-vip-status-upgrade-for-transferring-traders"
+ },
+ {
+  "from": "/newsroom/toobit-launches-flagship-international-futures-tournament-(tift)-with-3000000-usdt-prize-pool",
+  "to": "/newsroom/toobit-launches-flagship-international-futures-tournament-tift-prize-pool"
+ },
+ {
+  "from": "/newsroom/tron-integrated-into-metamask-wallet-bringing-high-performance-blockchain-infrastructure-to-global-users",
+  "to": "/newsroom/tron-integrated-into-metamask-wallet-bringing-high-global-users"
+ },
+ {
+  "from": "/newsroom/trump-frenzy-live-on-htx!-limited-time-event-features-100000-usdt-prize-pool",
+  "to": "/newsroom/trump-frenzy-live-on-htx-limited-time-event-features-100000-usdt-prize-pool"
+ },
+ {
+  "from": "/newsroom/trust-wallet-brings-tokenized-stocks-and-etfs-onchain-for-200m+-users-worldwide",
+  "to": "/newsroom/trust-wallet-brings-tokenized-stocks-and-etfs-onchain-for-200m-users-worldwide"
+ },
+ {
+  "from": "/newsroom/trust-wallet-launches-cash-deposits-enabling-users-to-convert-physical-cash-into-crypto",
+  "to": "/newsroom/trust-wallet-launches-cash-deposits-enabling-users-convert-into-crypto"
+ },
+ {
+  "from": "/newsroom/trust-wallet-launches-trust-moon-a-web3-accelerator-supported-by-binance-yzi-labs-and-aws",
+  "to": "/newsroom/trust-wallet-launches-trust-moon-web3-accelerator-supported-labs-aws"
+ },
+ {
+  "from": "/newsroom/truth-network-backs-galactic's-u.s.-expansion-with-nfa-registration-and-fcm-alliance-paving-the-way-for-regulated-prediction-markets",
+  "to": "/newsroom/truth-network-backs-galactics-u-s-expansion-nfa-prediction-markets"
+ },
+ {
+  "from": "/newsroom/turtle-enters-strategic-partnership-with-chainlink-to-bring-institutional-liquidity-onchain",
+  "to": "/newsroom/turtle-enters-strategic-partnership-chainlink-bring-liquidity-onchain"
+ },
+ {
+  "from": "/newsroom/two-industry-icons.-one-game-changing-masterclass.-america's-1-realtor-speaks-about-the-journey-to-the-top-with-angelai",
+  "to": "/newsroom/two-industry-icons-one-game-changing-masterclass-americas-top-angelai"
+ },
+ {
+  "from": "/newsroom/uexswap:-uex-capital's-decentralized-cross-chain-aggregator",
+  "to": "/newsroom/uexswap-uex-capitals-decentralized-cross-chain-aggregator"
+ },
+ {
+  "from": "/newsroom/ultima-trading-bot-in-a-crab-market:-grid-strategy",
+  "to": "/newsroom/ultima-trading-bot-crab-market-grid-strategy"
+ },
+ {
+  "from": "/newsroom/userevidence-acquires-zealot-and-raises-additional-dollar7-million-to-redefine-customer-advocacy-and-proof-in-the-gtm-era",
+  "to": "/newsroom/userevidence-acquires-zealot-raises-additional-dollar7-million-gtm-era"
+ },
+ {
+  "from": "/newsroom/vameon-unleashes-dempire-of-vampire:-a-cutting-edge-pvp-mobile-web3-game-poised-to-redefine-gamefi",
+  "to": "/newsroom/vameon-unleashes-dempire-vampire-cutting-edge-pvp-mobile-redefine-gamefi"
+ },
+ {
+  "from": "/newsroom/waib-summit-monaco-2025:-global-innovators-honored-at-premier-web3-and-ai-gathering",
+  "to": "/newsroom/waib-summit-monaco-2025-global-innovators-honored-at-ai-gathering"
+ },
+ {
+  "from": "/newsroom/workato-launches-ai-institute-alliance-to-accelerate-talent-development-and-innovation",
+  "to": "/newsroom/workato-launches-ai-institute-alliance-accelerate-development-innovation"
+ },
+ {
+  "from": "/newsroom/wowbit-(wwb)-is-now-available-for-trading-on-lbank-exchange",
+  "to": "/newsroom/wowbit-wwb-is-now-available-for-trading-on-lbank-exchange"
+ },
+ {
+  "from": "/newsroom/x.me-a-web2-+-web3-dual-engine-social-platform-breaks-new-ground-with-bitcoin-rewards",
+  "to": "/newsroom/x-me-web2-web3-dual-engine-social-platform-bitcoin-rewards"
+ },
+ {
+  "from": "/newsroom/xauras-enters-the-crypto-market-not-as-a-product-but-a-revolution:-redefining-the-future-of-decentralized-lending",
+  "to": "/newsroom/xauras-enters-crypto-market-not-product-but-decentralized-lending"
+ },
+ {
+  "from": "/newsroom/xtend-unveils-marketplace-first-ecommerce-solution-to-boost-brand-visibility-and-conversions-in-southeast-asia",
+  "to": "/newsroom/xtend-unveils-marketplace-first-ecommerce-solution-boost-southeast-asia"
+ },
+ {
+  "from": "/newsroom/y-combinator-and-coinbase-venture-backed-cypher-protocol-unlocks-on-chain-payments-and-rewards-to-the-mainstream",
+  "to": "/newsroom/y-combinator-coinbase-venture-backed-cypher-protocol-rewards-mainstream"
+ },
+ {
+  "from": "/newsroom/yom-secures-dollar3m-strategic-investment-featuring-avalanche-foundation-and-a-coalition-of-compute-investors",
+  "to": "/newsroom/yom-secures-dollar3m-strategic-investment-featuring-compute-investors"
+ },
+ {
+  "from": "/newsroom/zoomex-february-sprint:-growth-season-with-dollar100k-pool",
+  "to": "/newsroom/zoomex-february-sprint-growth-season-dollar100k-pool"
+ },
+ {
+  "from": "/newsroom/zoomex-launches-world-cup-carnival:-win-tickets-and-share-dollar300k-pool",
+  "to": "/newsroom/zoomex-launches-world-cup-carnival-win-tickets-share-dollar300k-pool"
+ },
+ {
+  "from": "/sc/web3-marketing",
+  "to": "/sc/web3-marketing-services"
+ },
+ {
+  "from": "/useful-links/crypto-exchange-pr",
+  "to": "/pr/crypto-exchange-pr"
+ },
+ {
+  "from": "/useful-links/crypto-press-release",
+  "to": "/pr/crypto-press-release"
+ },
+ {
+  "from": "/useful-links/de-fi-press-release",
+  "to": "/pr/de-fi-press-release"
+ },
+ {
+  "from": "/useful-links/fintech-pr",
+  "to": "/pr/fintech-pr"
+ },
+ {
+  "from": "/useful-links/web3-press-release",
+  "to": "/pr/web3-press-release"
+ }
+]

@@ -8,7 +8,7 @@ const longDate = (iso) => new Date(iso).toLocaleDateString("en-US", { year: "num
 
 export default function PaymentSuccess() {
   return (
-    <PaymentResult title="Payment successful" intro="Thank you. Your payment has gone through, and our team will reach out to you shortly." seoTitle="Payment successful" paid otherPage="/payment-cancel/">
+    <PaymentResult title="Payment successful" intro="Thank you. Your payment has gone through, and our team will reach out to you shortly." seoTitle="Payment successful" paid otherPage="/payment-cancel">
       {(order) => (
         <>
           <Slip className={s.orderSlip}>
@@ -20,7 +20,7 @@ export default function PaymentSuccess() {
             <SlipTotal left="Amount" right={money(order.packagePrice / 100)} />
           </Slip>
           <p className={s.lead}>
-            A confirmation email has been sent to {order.userContact?.email}. Need help? <Link href="/contact/">Contact us</Link>.
+            A confirmation email has been sent to {order.userContact?.email}. Need help? <Link href="/contact">Contact us</Link>.
           </p>
         </>
       )}

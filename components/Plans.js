@@ -31,7 +31,7 @@ export default function Plans({ start = "gold" }) {
           ))}
         </ul>
         <div className={s.actions}>
-          <Link href={`/submit-press-release/?package=${p.id}`} className={s.btnLarge}>
+          <Link href={`/submit-press-release?package=${p.id}`} className={s.btnLarge}>
             Choose {p.name}
           </Link>
           <a href={BOOKING} rel="noopener" className={s.btnLight}>

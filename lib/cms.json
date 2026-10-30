@@ -925,75 +925,30 @@
  },
  "blogs": [
   {
+   "slug": "crypto-trading-content-marketing-strategies",
    "title": "Best Crypto Trading Content Marketing Strategies",
-   "slug": "best-crypto-trading-content-marketing-strategies",
-   "minutes": 15,
-   "date": "2025-12-10",
-   "excerpt": "The crypto world moves fast, changes often, and can feel confusing, even for experienced traders. With new tokens, platforms, and trends appearing every day, people…",
    "image": {
-    "src": "/media/blog-best-crypto-trading-content-marketing-strategies.webp",
-    "width": 800,
-    "height": 450
+    "src": "/media/c/1b48bd13bb86-640.webp",
+    "width": 640,
+    "height": 360
    }
   },
   {
+   "slug": "kols-in-crypto",
    "title": "What Are KOLs in Crypto? A Complete Guide to KOL Marketing",
-   "slug": "what-are-kols-in-crypto-a-complete-guide-to-kol-marketing",
-   "minutes": 12,
-   "date": "2025-12-09",
-   "excerpt": "New projects pop up every day, token prices rise and fall in minutes, and it’s easy to feel lost in the crowd. If you’ve ever wondered how some projects seem to…",
    "image": {
-    "src": "/media/blog-what-are-kols-in-crypto-a-complete-guide-to-kol-marketing.webp",
-    "width": 800,
-    "height": 450
+    "src": "/media/c/9020b8bae530-640.webp",
+    "width": 640,
+    "height": 360
    }
   },
   {
-   "title": "Web3 Press Release Framework",
    "slug": "web3-press-release-framework",
-   "minutes": 10,
-   "date": "2025-10-13",
-   "excerpt": "In the world of blockchain and crypto, information is power but attention is scarce. Whether you are announcing a token launch, a DAO initiative, or a major partnership,…",
+   "title": "Web3 Press Release Framework",
    "image": {
-    "src": "/media/blog-web3-press-release-framework.webp",
-    "width": 800,
-    "height": 450
-   }
-  },
-  {
-   "title": "How to Maximize Web3 Press Release Reach Across Crypto News Outlets?",
-   "slug": "how-to-maximize-web3-press-release-reach-across-crypto-news-outlets",
-   "minutes": 5,
-   "date": "2025-10-13",
-   "excerpt": "In Web3, visibility is everything. You can have the best protocol, token, or metaverse vision but without visibility, your story stays invisible to the world. That’s…",
-   "image": {
-    "src": "/media/blog-how-to-maximize-web3-press-release-reach-across-crypto-news-outlets.webp",
-    "width": 800,
-    "height": 450
-   }
-  },
-  {
-   "title": "Future of Web3 Press Release Distribution",
-   "slug": "future-of-web3-press-release-distribution",
-   "minutes": 10,
-   "date": "2025-10-13",
-   "excerpt": "The evolution of PR has always mirrored technology. From newspapers to digital outlets, and now from centralized newswires to decentralized media, public relations…",
-   "image": {
-    "src": "/media/blog-future-of-web3-press-release-distribution.webp",
-    "width": 800,
-    "height": 450
-   }
-  },
-  {
-   "title": "Maximize ROI with Web3 Press Release Distribution Strategies",
-   "slug": "maximize-roi-with-web3-press-release-distribution-strategies",
-   "minutes": 10,
-   "date": "2025-10-13",
-   "excerpt": "In the fast-paced Web3 ecosystem, press releases are about measurable impact. Every token launch, funding announcement, or partnership reveal has a purpose: to generate…",
-   "image": {
-    "src": "/media/blog-maximize-roi-with-web3-press-release-distribution-strategies.webp",
-    "width": 800,
-    "height": 450
+    "src": "/media/c/bae9368d4e15-640.webp",
+    "width": 640,
+    "height": 360
    }
   }
  ],
@@ -1046,5 +1001,81 @@
     "metaDescription": "Learn how MediaX collects, uses, and protects your personal data when using our crypto PR services. Your privacy is our priority."
    }
   }
+ },
+ "footerLinks": {
+  "pr": [
+   {
+    "slug": "crypto-exchange-pr",
+    "name": "Crypto Exchange PR"
+   },
+   {
+    "slug": "crypto-press-release",
+    "name": "Crypto Press Release"
+   },
+   {
+    "slug": "de-fi-press-release",
+    "name": "DeFi Press Release"
+   },
+   {
+    "slug": "fintech-pr",
+    "name": "Fintech PR"
+   },
+   {
+    "slug": "web3-press-release",
+    "name": "Web3 Press Release"
+   }
+  ],
+  "mk": [
+   {
+    "slug": "crypto-influencer-marketing",
+    "name": "Crypto Influencer Marketing"
+   },
+   {
+    "slug": "crypto-link-building",
+    "name": "Crypto Link Building"
+   },
+   {
+    "slug": "press-release-distributions",
+    "name": "Press Release Distributions"
+   },
+   {
+    "slug": "twitter-influencers",
+    "name": "Twitter Influencers"
+   },
+   {
+    "slug": "you-tube-influencers-for-crypto",
+    "name": "YouTube Influencers for Crypto"
+   }
+  ],
+  "sc": [
+   {
+    "slug": "de-fi-marketing",
+    "name": "DeFi Marketing"
+   },
+   {
+    "slug": "game-fi-marketing",
+    "name": "GameFi Marketing"
+   },
+   {
+    "slug": "ico-marketing",
+    "name": "ICO Marketing"
+   },
+   {
+    "slug": "ido-marketing",
+    "name": "IDO Marketing"
+   },
+   {
+    "slug": "metaverse-marketing",
+    "name": "Metaverse Marketing"
+   },
+   {
+    "slug": "p2-e-marketing",
+    "name": "P2E Marketing"
+   },
+   {
+    "slug": "web3-marketing-services",
+    "name": "Web3 Marketing Services"
+   }
+  ]
  }
 }

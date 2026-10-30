@@ -100,7 +100,7 @@ const stripMd = (s) => clean(String(s || "").replace(/!\[[^\]]*\]\([^)]*\)/g, ""
 
   const steps = []
   for (const s of how.attributes.oneRelationshipHeader.oneRelationshipContent) {
-    steps.push({ title: clean(s.title).replace(/^Step \d+:\s*/, ""), text: clean(s.description), image: await image(one(s.image)?.url, `step-${s.title}`, { width: 900 }) })
+    steps.push({ title: clean(s.title).replace(/^Step \d+:\s*/, ""), text: clean(s.description).replace("Monitor your press release performance with our advanced analytics dashboard, providing real-time insights into", "Measure your press release performance with our metric reports, giving you clear insights into"), image: await image(one(s.image)?.url, `step-${s.title}`, { width: 900 }) })
   }
 
   const testimonials = []

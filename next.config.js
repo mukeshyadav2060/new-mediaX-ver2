@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   output: "export",
-  trailingSlash: true,
+  trailingSlash: false,
   reactStrictMode: true,
   images: { unoptimized: true },
   agentRules: false,

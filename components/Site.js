@@ -1,32 +1,63 @@
 import Head from "next/head"
 import Link from "next/link"
+import { useRouter } from "next/router"
 import { BOOKING, cms } from "@/lib/data"
 import { Mark } from "./Mark"
 import s from "@/styles/site.module.css"
 
 export { Mark }
 
+const SITE = "https://mediax.agency"
+
 // Three links either side of the logo, so the header mirrors around its centre.
 const NAV_LEFT = [
-  ["Pricing", "/pricing/"],
-  ["Publications", "/publications/"],
-  ["Blog", "/blog/"],
+  ["Pricing", "/pricing"],
+  ["Newsroom", "/newsroom"],
+  ["Blogs", "/blogs"],
 ]
 const NAV_RIGHT = [
-  ["About", "/about/"],
-  ["Contact", "/contact/"],
-  ["Submit PR", "/submit-press-release/"],
+  ["Industry", "/industry"],
+  ["Contact", "/contact"],
+  ["Submit PR", "/submit-press-release"],
 ]
-export const NAV = [...NAV_LEFT, ...NAV_RIGHT.slice(0, 2)]
 
-export function Seo({ title, description }) {
-  const full = title ? `${title} | MediaX` : "Crypto PR & Web3 Press Release Distribution | MediaX"
+const FOOT_COMPANY = [
+  ["About", "/about"],
+  ["Services", "/services"],
+  ["Team", "/team"],
+  ["Case studies", "/case-study"],
+  ["Publications", "/publications"],
+  ["Blogs", "/blogs"],
+  ["Newsroom", "/newsroom"],
+  ["Verify team", "/verify-team"],
+]
+const FOOT_START = [
+  ["Pricing", "/pricing"],
+  ["Submit a press release", "/submit-press-release"],
+  ["Drop a press release", "/drop-press-release"],
+  ["Crypto press release", "/crypto-press-release"],
+  ["Best crypto PR agency", "/best-crypto-pr-agency"],
+  ["Industry", "/industry"],
+  ["FAQ", "/faq"],
+]
+
+export function Seo({ title, fullTitle, description, image, type, noindex }) {
+  const router = useRouter()
+  const full = fullTitle || (title ? `${title} | MediaX` : "Crypto PR & Web3 Press Release Distribution | MediaX")
+  const path = router.asPath.split(/[?#]/)[0]
   return (
     <Head>
       <title>{full}</title>
       <meta name="description" content={description} />
       <meta property="og:title" content={full} />
       <meta property="og:description" content={description} />
+      <meta name="twitter:title" content={full} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:card" content="summary_large_image" />
+      {type && <meta property="og:type" content={type} />}
+      {image && <meta property="og:image" content={`${SITE}${image}`} />}
+      {image && <meta name="twitter:image" content={`${SITE}${image}`} />}
+      {noindex ? <meta name="robots" content="noindex, follow" /> : <link rel="canonical" href={`${SITE}${path === "/" ? "" : path}`} />}
     </Head>
   )
 }
@@ -47,7 +78,7 @@ export function Nav() {
           <i />
         </summary>
         <nav className={s.menuPanel} aria-label="Menu">
-          {[...NAV_LEFT, ...NAV_RIGHT].map(([label, href]) => (
+          {[...NAV_LEFT, ...NAV_RIGHT, ["Services", "/services"], ["About", "/about"]].map(([label, href]) => (
             <Link key={href} href={href}>
               {label}
             </Link>
@@ -65,12 +96,26 @@ export function Nav() {
           </Link>
         ))}
       </nav>
-      <Link href="/submit-press-release/" className={s.navPhone}>
+      <Link href="/submit-press-release" className={s.navPhone}>
         Submit PR
       </Link>
     </header>
   )
 }
+
+function FootLinks({ title, links }) {
+  return (
+    <div>
+      <p className={s.footHead}>{title}</p>
+      {links.map(([label, href]) => (
+        <Link key={href} href={href} prefetch={false}>
+          {label}
+        </Link>
+      ))}
+    </div>
+  )
+}
+const toLinks = (base, list) => list.map(({ slug, name }) => [name, `/${base}/${slug}`])
 
 export function Footer() {
   const { contact, social, summary } = cms.footer
@@ -82,23 +127,16 @@ export function Footer() {
       </Link>
       <p className={s.footSummary}>{summary}</p>
       <div className={s.footCols}>
+        <FootLinks title="Company" links={FOOT_COMPANY} />
+        <FootLinks title="Get started" links={FOOT_START} />
         <div>
-          <p className={s.footHead}>Explore</p>
-          {NAV.map(([label, href]) => (
-            <Link key={href} href={href}>
-              {label}
-            </Link>
-          ))}
-        </div>
-        <div>
-          <p className={s.footHead}>Get started</p>
-          <Link href="/submit-press-release/">Submit a press release</Link>
+          <p className={s.footHead}>Get in touch</p>
+          <Link href="/contact" prefetch={false}>
+            Contact us
+          </Link>
           <a href={BOOKING} rel="noopener">
             Book a call
           </a>
-        </div>
-        <div>
-          <p className={s.footHead}>Get in touch</p>
           <a href={`mailto:${contact.mail}`}>{contact.mail}</a>
           <a href={social.telegram} rel="noopener">
             Telegram
@@ -110,23 +148,26 @@ export function Footer() {
             LinkedIn
           </a>
         </div>
+        <FootLinks title="PR services" links={toLinks("pr", cms.footerLinks.pr)} />
+        <FootLinks title="Marketing services" links={toLinks("mk", cms.footerLinks.mk)} />
+        <FootLinks title="Sectors" links={toLinks("sc", cms.footerLinks.sc)} />
       </div>
       <div className={s.legal}>
         <span>{contact.location}</span>
         <span>© 2026 MediaX Agency. All rights reserved.</span>
         <span className={s.legalLinks}>
-          <Link href="/terms/">Terms</Link>
-          <Link href="/privacy/">Privacy</Link>
+          <Link href="/terms-condition">Terms</Link>
+          <Link href="/privacy">Privacy</Link>
         </span>
       </div>
     </footer>
   )
 }
 
-export function Page({ title, description, children }) {
+export function Page({ title, fullTitle, description, image, type, noindex, children }) {
   return (
     <>
-      <Seo title={title} description={description} />
+      <Seo title={title} fullTitle={fullTitle} description={description} image={image} type={type} noindex={noindex} />
       <Nav />
       <main>{children}</main>
       <Footer />
