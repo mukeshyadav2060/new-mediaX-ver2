@@ -9,11 +9,6 @@
   --on-deep: #f5f2e9;
   --on-deep-soft: #b9d3cd;
   --butter: #ffd166;
-  --butter-soft: #ffefc4;
-  --coral: #ff9c88;
-  --coral-soft: #ffdfd7;
-  --mint: #bfe8d6;
-  --mint-soft: #dcf3e8;
   --line: #e4dfd0;
   --m: clamp(16px, 4vw, 48px);
   /* Equal side padding that keeps content in a centred 1200px column at any width. */

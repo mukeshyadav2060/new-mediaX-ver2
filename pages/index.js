@@ -82,7 +82,7 @@ export default function Home() {
           </div>
           <div className={s.bento}>
             {cms.features.map((f, i) => (
-              <article key={f.title} className={`${s.bentoCard} ${i < 2 ? s.tButter : s.tMint}`} data-r={(i % 2) + 1}>
+              <article key={f.title} className={s.bentoCard} data-r={(i % 2) + 1}>
                 <div className={s.stack} aria-hidden="true">
                   {FEATURE_ART[i].map((img) => (
                     <span key={img.src} className={s.stackTile}>

@@ -2,15 +2,15 @@ import { Mark } from "./Mark"
 import { outlet } from "@/lib/data"
 import s from "@/styles/site.module.css"
 
-// Seven arches mirrored around the middle one: height, colour and timing all match in pairs.
+// Seven arches mirrored around the middle one: height and timing match in pairs.
 const ARCHES = [
-  ["coinmarketcap", s.aButter],
-  ["benzinga", s.aCoral],
-  ["cointelegraph", s.aMint],
+  ["coinmarketcap", s.aSide],
+  ["benzinga", s.aSide],
+  ["cointelegraph", s.aSide],
   [null, s.aCentre],
-  ["the-block", s.aMint],
-  ["apnews", s.aCoral],
-  ["business-insider", s.aButter],
+  ["the-block", s.aSide],
+  ["apnews", s.aSide],
+  ["business-insider", s.aSide],
 ]
 
 export default function Arcade() {
