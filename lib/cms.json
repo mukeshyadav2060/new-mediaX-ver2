@@ -1,0 +1,1050 @@
+{
+ "source": "Snapshot of the old site's CMS",
+ "landing": {
+  "title": "Crypto Press Release Distribution That Gets You Featured in Top-Tier Media",
+  "subtitle": "We help Web3, DeFi, and blockchain projects to amplify brand visibility through trusted crypto press release distribution and customized PR strategies."
+ },
+ "trusted": {
+  "title": "Trusted by Over 1,400+ Crypto and Web3 Projects Worldwide"
+ },
+ "pricing": {
+  "title": "Choose Plan That’s Right For You",
+  "subtitle": "Choose plan that works best for you, feel free to contact us"
+ },
+ "howTitle": "One Relationship. Countless Publications.",
+ "steps": [
+  {
+   "title": "Choose Your Package",
+   "text": "Select a plan that aligns with your budget and goals, or customize your distribution by picking individual publishers.",
+   "image": {
+    "src": "/media/step-step-1-choose-your-package.webp",
+    "width": 900,
+    "height": 724
+   }
+  },
+  {
+   "title": "Submit Your Press Release",
+   "text": "Share your story, and we’ll ensure it reaches the right audience with maximum visibility.",
+   "image": {
+    "src": "/media/step-step-2-submit-your-press-release.webp",
+    "width": 610,
+    "height": 528
+   }
+  },
+  {
+   "title": "Get Published Instantly",
+   "text": "Within hours, your press release will be featured on top Web3 media outlets, expanding your reach.",
+   "image": {
+    "src": "/media/step-step-3-get-published-instantly.webp",
+    "width": 598,
+    "height": 511
+   }
+  },
+  {
+   "title": "Track & Measure Success",
+   "text": "Measure your press release performance with our metric reports, giving you clear insights into your campaign’s impact.",
+   "image": {
+    "src": "/media/step-step-4-track-measure-success.webp",
+    "width": 574,
+    "height": 661
+   }
+  }
+ ],
+ "featuresTitle": "Strategic PR That Elevates Your Blockchain Brand",
+ "featuresSubtitle": "At MediaX, we combine expert storytelling, targeted outreach, and strong media relationships to amplify your crypto brand. We help you earn credibility, attract investors, and get featured where it counts. Learn more about our media coverage process.",
+ "features": [
+  {
+   "title": "Crypto Press Release",
+   "tagline": "PR That Builds Trust in the Crypto World",
+   "text": "We distribute your crypto press release on top tier crypto & mainstream media that get noticed. Whether you are launching a token, announcing funding, or rebranding, we shape your story for maximum reach.",
+   "image": {
+    "src": "/media/feature-crypto-press-release.webp",
+    "width": 560,
+    "height": 496
+   }
+  },
+  {
+   "title": "Media Relations",
+   "tagline": "Get Your Project in Front of the Right Eyes",
+   "text": "We connect you with top crypto media outlets like Cointelegraph, Decrypt, and Yahoo Finance. Get covered where your audience actively engages.",
+   "image": {
+    "src": "/media/feature-media-relations.webp",
+    "width": 640,
+    "height": 472
+   }
+  },
+  {
+   "title": "Branding and Communications",
+   "tagline": "Clear Messaging for Web3 Brands",
+   "text": "From pitch decks to announcements, we help you develop a consistent and compelling brand voice.",
+   "image": {
+    "src": "/media/feature-branding-and-communications.webp",
+    "width": 640,
+    "height": 533
+   }
+  },
+  {
+   "title": "Organic Coverage",
+   "tagline": "Let the Right People Talk About You",
+   "text": "Organic coverage offers crypto and Web3 projects authentic visibility through earned media placements, without paid promotions. It enhances brand credibility, investor trust, and long-term search engine presence across top-tier publications.",
+   "image": {
+    "src": "/media/feature-organic-coverage.webp",
+    "width": 560,
+    "height": 560
+   }
+  }
+ ],
+ "testimonialsTitle": "What Our Clients Say",
+ "testimonialsSubtitle": "Discover how MediaX has helped Web3, DeFi, NFT, and blockchain projects gain real traction, visibility, and results.",
+ "testimonials": [
+  {
+   "name": "Eric",
+   "role": "Chief Marketing Officer, UXLINK",
+   "quote": "Partnering with MediaX significantly elevated our brand visibility across both crypto-native and mainstream media outlets. Their team demonstrated exceptional strategic insight, securing high-impact placements that aligned perfectly with our campaign goals. The quality of service and value for cost is truly unmatched in the industry.",
+   "logo": {
+    "src": "/media/testimonial-eric.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "name": "Igor",
+   "role": "Founder, Rivalz Network",
+   "quote": "MediaX has set a new standard for PR execution in the Web3 space. Their deep industry expertise, proactive communication, and ability to deliver top-tier coverage contributed directly to a measurable increase in investor engagement and brand credibility. They are, without question, one of the best PR agencies in the market today.",
+   "logo": {
+    "src": "/media/testimonial-igor.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "name": "Camila Cabello",
+   "role": "Marketing Manager, XT Exchange & XT Labs",
+   "quote": "From strategic messaging to premium media placements on platforms like Yahoo Finance and Cointelegraph, MediaX executed flawlessly. Their tailored approach, rapid turnaround, and competitive pricing make them an invaluable partner for any blockchain project seeking meaningful exposure.",
+   "logo": {
+    "src": "/media/testimonial-camila-cabello.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "name": "Serena",
+   "role": "Marketing Manager, BTSE Exchange",
+   "quote": "Our experience with MediaX exceeded expectations at every level. Their ability to position our brand across respected crypto and mainstream channels brought immediate traction and long-term value. Their professionalism, efficiency, and commitment to excellence truly set them apart.",
+   "logo": {
+    "src": "/media/testimonial-serena.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "name": "Karen",
+   "role": "Head of Marketing, CoinEX Exchange",
+   "quote": "MediaX delivers a rare combination of strategic expertise, deep media relationships, and exceptional service. They helped us establish a strong market presence in a highly competitive space, and their pricing remains the most competitive among top-tier agencies. Highly recommended for any project serious about growth.",
+   "logo": {
+    "src": "/media/testimonial-karen.webp",
+    "width": 91,
+    "height": 96
+   }
+  }
+ ],
+ "plans": [
+  {
+   "id": "lite",
+   "name": "Lite",
+   "price": 600,
+   "publications": "500+ Guaranteed Publications",
+   "includes": [
+    "Editorial Assistance",
+    "SEO Optimization",
+    "1 - 2 Images Included",
+    "Metric Reports"
+   ],
+   "publishers": [
+    "business-insider",
+    "apnews",
+    "benzinga",
+    "street-insider",
+    "marketwatch",
+    "live-bitcoin-news",
+    "thenewscrypto",
+    "binance",
+    "coinmarketcap",
+    "themanillatimes",
+    "fox8news"
+   ]
+  },
+  {
+   "id": "starter",
+   "name": "Starter",
+   "price": 2900,
+   "publications": "500+ Guaranteed Publications",
+   "includes": [
+    "Editorial Assistance",
+    "SEO Optimization",
+    "1 - 2 Images Included",
+    "Metric Reports"
+   ],
+   "publishers": [
+    "investing-com",
+    "the-defiant",
+    "bitcoinist",
+    "hackernoon",
+    "blockonomi",
+    "crypto-wisser",
+    "cryptobriefing",
+    "analytics-insight",
+    "captain-altcoin",
+    "coinjournal",
+    "invezz",
+    "coinmarketcap",
+    "binance",
+    "thenewscrypto",
+    "coincu",
+    "coinedition",
+    "techbullion",
+    "mpost-io"
+   ]
+  },
+  {
+   "id": "gold",
+   "name": "Gold",
+   "price": 6000,
+   "publications": "550+ Guaranteed Publications",
+   "includes": [
+    "Editorial Assistance",
+    "SEO Optimization",
+    "1 - 2 Images Included",
+    "Metric Reports"
+   ],
+   "publishers": [
+    "news-bitcoin-com",
+    "be-in-crypto",
+    "crypto-news",
+    "u-today",
+    "cryptobriefing",
+    "binance",
+    "hackernoon",
+    "bitcoinist",
+    "investing-com",
+    "invezz",
+    "cryptowisser",
+    "business-insider",
+    "apnews",
+    "morningstar",
+    "benzinga",
+    "street-insider",
+    "marketwatch",
+    "analytics-insight",
+    "coinjournal",
+    "captain-altcoin",
+    "coinmarketcap"
+   ]
+  },
+  {
+   "id": "platinum",
+   "name": "Platinum",
+   "price": 9500,
+   "publications": "550+ Guaranteed Publications",
+   "includes": [
+    "Editorial Assistance",
+    "SEO Optimization",
+    "1 - 2 Images Included",
+    "Metric Reports"
+   ],
+   "publishers": [
+    "the-block",
+    "decrypt",
+    "news-bitcoin-com",
+    "crypto-news",
+    "hackernoon",
+    "be-in-crypto",
+    "u-today",
+    "investing-com",
+    "invezz",
+    "newsbtc",
+    "bitcoinist",
+    "cryptobriefing",
+    "crypto-wisser",
+    "analytics-insight",
+    "coinmarketcap",
+    "binance",
+    "business-insider",
+    "apnews",
+    "morningstar",
+    "benzinga",
+    "street-insider",
+    "marketwatch"
+   ]
+  },
+  {
+   "id": "diamond",
+   "name": "Diamond",
+   "price": 12500,
+   "publications": "600+ Guaranteed Publications",
+   "includes": [
+    "Editorial Assistance",
+    "SEO Optimization",
+    "1 - 2 Images Included",
+    "Metric Reports"
+   ],
+   "publishers": [
+    "cointelegraph",
+    "news-bitcoin-com",
+    "be-in-crypto",
+    "newsbtc",
+    "invezz",
+    "cryptonews",
+    "u-today",
+    "hackernoon",
+    "investing-com",
+    "benzinga",
+    "bitcoinist",
+    "mpost-io",
+    "crypto-wisser",
+    "analytics-insight",
+    "coinmarketcap",
+    "binance",
+    "business-insider",
+    "apnews",
+    "morningstar",
+    "street-insider",
+    "marketwatch"
+   ]
+  }
+ ],
+ "publishers": [
+  {
+   "id": "business-insider",
+   "name": "Business Insider",
+   "logo": {
+    "src": "/media/outlet-business-insider.webp",
+    "width": 171,
+    "height": 96
+   }
+  },
+  {
+   "id": "apnews",
+   "name": "APNews",
+   "logo": {
+    "src": "/media/outlet-apnews.webp",
+    "width": 137,
+    "height": 96
+   }
+  },
+  {
+   "id": "benzinga",
+   "name": "Benzinga",
+   "logo": {
+    "src": "/media/outlet-benzinga.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "street-insider",
+   "name": "Street Insider",
+   "logo": {
+    "src": "/media/outlet-street-insider.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "marketwatch",
+   "name": "MarketWatch",
+   "logo": {
+    "src": "/media/outlet-marketwatch.webp",
+    "width": 171,
+    "height": 96
+   }
+  },
+  {
+   "id": "live-bitcoin-news",
+   "name": "Live Bitcoin News",
+   "logo": {
+    "src": "/media/outlet-live-bitcoin-news.webp",
+    "width": 85,
+    "height": 96
+   }
+  },
+  {
+   "id": "thenewscrypto",
+   "name": "TheNewsCrypto",
+   "logo": {
+    "src": "/media/outlet-thenewscrypto.webp",
+    "width": 97,
+    "height": 96
+   }
+  },
+  {
+   "id": "binance",
+   "name": "Binance",
+   "logo": {
+    "src": "/media/outlet-binance.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "coinmarketcap",
+   "name": "CoinMarketCap",
+   "logo": {
+    "src": "/media/outlet-coinmarketcap.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "themanillatimes",
+   "name": "TheManillaTimes",
+   "logo": {
+    "src": "/media/outlet-themanillatimes.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "fox8news",
+   "name": "Fox8News",
+   "logo": {
+    "src": "/media/outlet-fox8news.webp",
+    "width": 226,
+    "height": 96
+   }
+  },
+  {
+   "id": "investing-com",
+   "name": "Investing.com",
+   "logo": {
+    "src": "/media/outlet-investing-com.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "the-defiant",
+   "name": "The Defiant",
+   "logo": {
+    "src": "/media/outlet-the-defiant.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "bitcoinist",
+   "name": "Bitcoinist",
+   "logo": {
+    "src": "/media/outlet-bitcoinist.webp",
+    "width": 98,
+    "height": 96
+   }
+  },
+  {
+   "id": "hackernoon",
+   "name": "Hackernoon",
+   "logo": {
+    "src": "/media/outlet-hackernoon.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "blockonomi",
+   "name": "Blockonomi",
+   "logo": {
+    "src": "/media/outlet-blockonomi.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "crypto-wisser",
+   "name": "Crypto Wisser",
+   "logo": {
+    "src": "/media/outlet-crypto-wisser.webp",
+    "width": 81,
+    "height": 96
+   }
+  },
+  {
+   "id": "cryptobriefing",
+   "name": "CryptoBriefing",
+   "logo": {
+    "src": "/media/outlet-cryptobriefing.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "analytics-insight",
+   "name": "Analytics Insight",
+   "logo": {
+    "src": "/media/outlet-analytics-insight.webp",
+    "width": 83,
+    "height": 80
+   }
+  },
+  {
+   "id": "captain-altcoin",
+   "name": "Captain Altcoin",
+   "logo": {
+    "src": "/media/outlet-captain-altcoin.webp",
+    "width": 61,
+    "height": 96
+   }
+  },
+  {
+   "id": "coinjournal",
+   "name": "CoinJournal",
+   "logo": {
+    "src": "/media/outlet-coinjournal.webp",
+    "width": 97,
+    "height": 96
+   }
+  },
+  {
+   "id": "invezz",
+   "name": "Invezz",
+   "logo": {
+    "src": "/media/outlet-invezz.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "coincu",
+   "name": "Coincu",
+   "logo": {
+    "src": "/media/outlet-coincu.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "coinedition",
+   "name": "CoinEdition",
+   "logo": {
+    "src": "/media/outlet-coinedition.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "techbullion",
+   "name": "TechBullion",
+   "logo": {
+    "src": "/media/outlet-techbullion.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "mpost-io",
+   "name": "Mpost.io",
+   "logo": {
+    "src": "/media/outlet-mpost-io.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "news-bitcoin-com",
+   "name": "news.bitcoin.com",
+   "logo": {
+    "src": "/media/outlet-news-bitcoin-com.webp",
+    "width": 83,
+    "height": 96
+   }
+  },
+  {
+   "id": "be-in-crypto",
+   "name": "Be[in]crypto",
+   "logo": {
+    "src": "/media/outlet-be-in-crypto.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "crypto-news",
+   "name": "Crypto.news",
+   "logo": {
+    "src": "/media/outlet-crypto-news.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "u-today",
+   "name": "U.Today",
+   "logo": {
+    "src": "/media/outlet-u-today.webp",
+    "width": 121,
+    "height": 96
+   }
+  },
+  {
+   "id": "cryptowisser",
+   "name": "CryptoWisser",
+   "logo": {
+    "src": "/media/outlet-crypto-wisser.webp",
+    "width": 81,
+    "height": 96
+   }
+  },
+  {
+   "id": "morningstar",
+   "name": "MorningStar",
+   "logo": {
+    "src": "/media/outlet-morningstar.webp",
+    "width": 163,
+    "height": 96
+   }
+  },
+  {
+   "id": "the-block",
+   "name": "The Block",
+   "logo": {
+    "src": "/media/outlet-the-block.webp",
+    "width": 80,
+    "height": 80
+   }
+  },
+  {
+   "id": "decrypt",
+   "name": "Decrypt",
+   "logo": {
+    "src": "/media/outlet-decrypt.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "newsbtc",
+   "name": "NewsBTC",
+   "logo": {
+    "src": "/media/outlet-newsbtc.webp",
+    "width": 96,
+    "height": 96
+   }
+  },
+  {
+   "id": "cointelegraph",
+   "name": "Cointelegraph",
+   "logo": {
+    "src": "/media/outlet-cointelegraph.webp",
+    "width": 117,
+    "height": 96
+   }
+  },
+  {
+   "id": "cryptonews",
+   "name": "CryptoNews",
+   "logo": {
+    "src": "/media/outlet-crypto-news.webp",
+    "width": 96,
+    "height": 96
+   }
+  }
+ ],
+ "clients": [
+  {
+   "src": "/media/client-0-ttcoin.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-1-centralis.webp",
+   "width": 40,
+   "height": 40
+  },
+  {
+   "src": "/media/client-2-xypher.webp",
+   "width": 79,
+   "height": 72
+  },
+  {
+   "src": "/media/client-3-aicraft.webp",
+   "width": 52,
+   "height": 55
+  },
+  {
+   "src": "/media/client-4-bemine.webp",
+   "width": 222,
+   "height": 72
+  },
+  {
+   "src": "/media/client-5-armor.webp",
+   "width": 279,
+   "height": 72
+  },
+  {
+   "src": "/media/client-6-stenix.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-7-openpac.webp",
+   "width": 33,
+   "height": 32
+  },
+  {
+   "src": "/media/client-8-tpunks.webp",
+   "width": 73,
+   "height": 72
+  },
+  {
+   "src": "/media/client-9-biconomy.webp",
+   "width": 73,
+   "height": 72
+  },
+  {
+   "src": "/media/client-10-creator.webp",
+   "width": 50,
+   "height": 72
+  },
+  {
+   "src": "/media/client-11-rwa.webp",
+   "width": 172,
+   "height": 72
+  },
+  {
+   "src": "/media/client-12-sparsity.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-13-bitfi.webp",
+   "width": 66,
+   "height": 72
+  },
+  {
+   "src": "/media/client-14-millionero.webp",
+   "width": 115,
+   "height": 72
+  },
+  {
+   "src": "/media/client-15-kcex.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-16-vameon.webp",
+   "width": 208,
+   "height": 72
+  },
+  {
+   "src": "/media/client-17-kommunitas.webp",
+   "width": 62,
+   "height": 72
+  },
+  {
+   "src": "/media/client-18-iagon.webp",
+   "width": 312,
+   "height": 72
+  },
+  {
+   "src": "/media/client-19-akuma.webp",
+   "width": 53,
+   "height": 72
+  },
+  {
+   "src": "/media/client-20-xpanse.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-21-rocky-rabbit.webp",
+   "width": 232,
+   "height": 72
+  },
+  {
+   "src": "/media/client-22-qutom.webp",
+   "width": 85,
+   "height": 72
+  },
+  {
+   "src": "/media/client-23-vector-space.webp",
+   "width": 58,
+   "height": 67
+  },
+  {
+   "src": "/media/client-24-qwadrox.webp",
+   "width": 86,
+   "height": 72
+  },
+  {
+   "src": "/media/client-25-coco-park.webp",
+   "width": 111,
+   "height": 72
+  },
+  {
+   "src": "/media/client-26-inxy.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-27-babyboom.webp",
+   "width": 58,
+   "height": 58
+  },
+  {
+   "src": "/media/client-28-xenea.webp",
+   "width": 43,
+   "height": 72
+  },
+  {
+   "src": "/media/client-29-logo-14-1.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-30-khuong-phan-icon.webp",
+   "width": 75,
+   "height": 72
+  },
+  {
+   "src": "/media/client-31-logo-icon-20.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-32-logo-icon-21.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-33-logo-icon-22.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-34-logo-icon-23.webp",
+   "width": 72,
+   "height": 72
+  },
+  {
+   "src": "/media/client-35-logo-icon-25.webp",
+   "width": 72,
+   "height": 72
+  }
+ ],
+ "faqs": [
+  [
+   "What is a crypto press release?",
+   "A crypto press release is a short news-style article that announces something important about your Web3 or blockchain project. It is published across trusted crypto media sites to increase visibility and credibility."
+  ],
+  [
+   "How does MediaX work?",
+   "Choose a plan, submit your press release or let us write it for you, and we will distribute it through our crypto PR distribution network. After it is live, we will send you a report with all placements and metrics."
+  ],
+  [
+   "Where will my press release be published?",
+   "Depending on your package, it will appear on sites like Coin Edition, NewsBTC, The Block, Yahoo Finance, and multiple others. View our media list."
+  ],
+  [
+   "How much does a crypto press release cost?",
+   "Our Lite plan starts at $600. All plans include guaranteed placements. You can also request a custom quote."
+  ],
+  [
+   "When will my press release go live?",
+   "Our releases go live within 24 to 48 hours after approval. Express publishing is available if it is required on an expedited basis."
+  ],
+  [
+   "Do you guarantee media placements?",
+   "Yes. All packages include guaranteed crypto press release distribution. We only work with verified media outlets."
+  ],
+  [
+   "Can I choose specific media outlets?",
+   "Yes. You can select from our outlet list or let us recommend the best ones based on your goals including DeFi, NFT, AI, and more."
+  ],
+  [
+   "Do you support global distribution?",
+   "Yes. We offer international crypto press release distribution across the USA, UAE, UK, Southeast Asia, and Europe."
+  ],
+  [
+   "Can you write or edit my press release?",
+   "Yes. Writing and editing services are included in selected plans or available as add-ons. All content is optimized for crypto and blockchain media."
+  ],
+  [
+   "How can I track performance?",
+   "After your press release goes live, you will receive a performance report showing all media placements, traffic data, and live URLs."
+  ]
+ ],
+ "about": {
+  "title": "About Us",
+  "subtitle": "Learn how MediaX helps blockchain, DeFi, and Web3 projects grow through strategic crypto PR, media relations, and press release distribution.",
+  "body": "We believe in a data-driven approach when it comes to [PR services](https://mediax.agency/submit-press-release). Our team at [MediaX](https://mediax.agency/) is dedicated to research and analysis to identify growing trends in the media world. With effective thought leadership, we help our clients maximize both the quality and quantity of media coverage.\n\nFor your PR success, we use science and art equally, and we never forget to measure your impact, which leads to long-term business growth. MediaX combines genuine insights with the art of storytelling to drive your success.\n\n### Why Choose Us\n\nWe are an agency that drives strategic communication. Our team of experts combines insights and analysis to directly benefit your business objectives. MediaX helps you strategize, customize, and deliver your brand communication in a unique and effective way.\n\nWe create engaging solutions using modern PR techniques and best practices. Our team brings years of experience in digital marketing, public relations, and brand strategy to build proactive communication plans. These efforts not only set you apart from competitors but also help expand your market reach and revenue.\n\nWhether you're ready to [submit a press release](https://mediax.agency/submit-press-release), explore our [latest insights](https://mediax.agency/blogs), or [contact us](https://mediax.agency/contact), we're here to help your story stand out.\n\n### Our Beliefs\n\n\"Our job is to make change. Our job is to connect to people, to interact with them in a way that leaves them better than we found them.\" – Seth Godin\n\nThis belief shapes everything we do. We use PR to connect, elevate, and create meaningful impact in every client interaction.\n\n### Specialization\n\nMediaX focuses on Web3, fintech, sports, and tech startups. This specialization allows us to develop deep industry expertise, build strong media relationships, and understand the unique challenges faced by innovative companies.\n\n### Industry Insights\n\nBy concentrating on these sectors, we stay updated with the latest trends in blockchain PR, technology, and media innovation. This enables us to provide clients with timely insights and impactful strategies. Learn more in our [Web3 PR blog](https://mediax.agency/blogs/crypto-blockchain).\n\n### Tailored Approach\n\nOur industry focus allows us to customize PR and media placement services to meet the unique needs of each startup, ensuring campaigns deliver maximum visibility and real results.\n\n### Network and Relationships\n\nOver time, MediaX has built trusted relationships with leading media outlets, journalists, influencers, and industry stakeholders. This ensures our clients get exposure to the right audience at the right time.\n\n### Track Record of Success\n\nWe proudly showcase a proven track record of successful PR and media placement campaigns for startups across our core industries. Our work instills confidence and reflects our ability to deliver real results.\n\n### Innovative Approach\n\nStartups in Web3, fintech, sports, and tech demand creative, modern PR strategies. MediaX stays ahead by continuously adopting new technologies and emerging communication trends to help you stay relevant. Read our [Ultimate Guide to Influencer Marketing](https://mediax.agency/blogs/the-ultimate-guide-to-influencer-marketing-for-your-brand) for more.\n\n### Integrated Services\n\nMediaX offers a full spectrum of services including media relations, content creation, social media management, and event planning. Our integrated approach gives clients a complete PR solution.\n\n### Thought Leadership\n\nWe position ourselves as thought leaders by regularly publishing insights, industry reports, and expert commentary. Visit our [blog](https://mediax.agency/blogs) or read our [terms](https://mediax.agency/terms-condition) and [privacy policy](https://mediax.agency/privacy) to learn more about how we work.\n"
+ },
+ "team": {
+  "title": "Meet the MediaX Team",
+  "subtitle": "At MediaX Agency, our Crypto & Blockchain PR experts are dedicated to expanding your brand's visibility. With years of experience, we create strategies that drive successful media campaigns and deliver results.",
+  "members": [
+   {
+    "name": "Rachita Chettri",
+    "role": "Co-founder / Head of Business",
+    "linkedin": "https://www.linkedin.com/in/rachitachettri/"
+   },
+   {
+    "name": "Suvransgou Das",
+    "role": "Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/suvrangsu-das/"
+   },
+   {
+    "name": "Prakriti Pokharel",
+    "role": "PR Manager",
+    "linkedin": "https://www.linkedin.com/in/prakriti-pokharel/"
+   },
+   {
+    "name": "Aakash Dhakal",
+    "role": "PR Manager",
+    "linkedin": "https://www.linkedin.com/in/aakash-dhakal-31554520b/"
+   },
+   {
+    "name": "Simon Bogdanowicz",
+    "role": "Head of Strategy",
+    "linkedin": "https://www.linkedin.com/in/simonbogdanowicz"
+   },
+   {
+    "name": "Anita Erker",
+    "role": "Advisor",
+    "linkedin": "https://www.linkedin.com/in/anitaerker/"
+   },
+   {
+    "name": "Div D",
+    "role": "Business Development Manager",
+    "linkedin": "https://www.linkedin.com/in/dibyendu-das-424739146/"
+   },
+   {
+    "name": "Dibyendu Das",
+    "role": "Business Development Manager",
+    "linkedin": null
+   }
+  ]
+ },
+ "blogs": [
+  {
+   "title": "Best Crypto Trading Content Marketing Strategies",
+   "slug": "best-crypto-trading-content-marketing-strategies",
+   "minutes": 15,
+   "date": "2025-12-10",
+   "excerpt": "The crypto world moves fast, changes often, and can feel confusing, even for experienced traders. With new tokens, platforms, and trends appearing every day, people…",
+   "image": {
+    "src": "/media/blog-best-crypto-trading-content-marketing-strategies.webp",
+    "width": 800,
+    "height": 450
+   }
+  },
+  {
+   "title": "What Are KOLs in Crypto? A Complete Guide to KOL Marketing",
+   "slug": "what-are-kols-in-crypto-a-complete-guide-to-kol-marketing",
+   "minutes": 12,
+   "date": "2025-12-09",
+   "excerpt": "New projects pop up every day, token prices rise and fall in minutes, and it’s easy to feel lost in the crowd. If you’ve ever wondered how some projects seem to…",
+   "image": {
+    "src": "/media/blog-what-are-kols-in-crypto-a-complete-guide-to-kol-marketing.webp",
+    "width": 800,
+    "height": 450
+   }
+  },
+  {
+   "title": "Web3 Press Release Framework",
+   "slug": "web3-press-release-framework",
+   "minutes": 10,
+   "date": "2025-10-13",
+   "excerpt": "In the world of blockchain and crypto, information is power but attention is scarce. Whether you are announcing a token launch, a DAO initiative, or a major partnership,…",
+   "image": {
+    "src": "/media/blog-web3-press-release-framework.webp",
+    "width": 800,
+    "height": 450
+   }
+  },
+  {
+   "title": "How to Maximize Web3 Press Release Reach Across Crypto News Outlets?",
+   "slug": "how-to-maximize-web3-press-release-reach-across-crypto-news-outlets",
+   "minutes": 5,
+   "date": "2025-10-13",
+   "excerpt": "In Web3, visibility is everything. You can have the best protocol, token, or metaverse vision but without visibility, your story stays invisible to the world. That’s…",
+   "image": {
+    "src": "/media/blog-how-to-maximize-web3-press-release-reach-across-crypto-news-outlets.webp",
+    "width": 800,
+    "height": 450
+   }
+  },
+  {
+   "title": "Future of Web3 Press Release Distribution",
+   "slug": "future-of-web3-press-release-distribution",
+   "minutes": 10,
+   "date": "2025-10-13",
+   "excerpt": "The evolution of PR has always mirrored technology. From newspapers to digital outlets, and now from centralized newswires to decentralized media, public relations…",
+   "image": {
+    "src": "/media/blog-future-of-web3-press-release-distribution.webp",
+    "width": 800,
+    "height": 450
+   }
+  },
+  {
+   "title": "Maximize ROI with Web3 Press Release Distribution Strategies",
+   "slug": "maximize-roi-with-web3-press-release-distribution-strategies",
+   "minutes": 10,
+   "date": "2025-10-13",
+   "excerpt": "In the fast-paced Web3 ecosystem, press releases are about measurable impact. Every token launch, funding announcement, or partnership reveal has a purpose: to generate…",
+   "image": {
+    "src": "/media/blog-maximize-roi-with-web3-press-release-distribution-strategies.webp",
+    "width": 800,
+    "height": 450
+   }
+  }
+ ],
+ "footer": {
+  "summary": "MediaX is a renowned Crypto Marketing & PR Agency in Blockchain space dedicatedly helping NFT, DeFi, Web3 and Meta Verse projects in PR, Branding and Marketing. MEDIAX AGENCY - FZCO Al Mankhool, Bur Dubai, Dubai",
+  "contact": {
+   "id": 1,
+   "location": "Salt Lake, Kolkata India-700091",
+   "number": "9849446454",
+   "mail": "contact@mediax.agency",
+   "latitude": null,
+   "longitude": null,
+   "title": "MediaX",
+   "website": "https://mediax.agency/"
+  },
+  "social": {
+   "id": 1,
+   "facebook": "",
+   "twitter": "https://x.com/AgencyMediax",
+   "instagram": null,
+   "linkedin": "https://www.linkedin.com/company/mediax-agencyy/",
+   "discord": null,
+   "telegram": "https://t.me/MediaxPR",
+   "reddit": null,
+   "youtube": null
+  }
+ },
+ "legal": {
+  "terms": {
+   "createdAt": "2025-04-22T10:43:33.863Z",
+   "updatedAt": "2025-07-17T19:29:49.963Z",
+   "publishedAt": "2025-04-22T10:43:35.635Z",
+   "title": "Terms of Service – MediaX Agency",
+   "content": "**Last Updated: 01/01/2025**\n\nBY ACCESSING OR USING THIS WEBSITE, YOU AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS. MEDIAX.AGENCY (“WE”, “OUR”, “US”, OR THE “WEBSITE”) MAY MODIFY THESE TERMS AT ANY TIME, AND YOUR CONTINUED USE OF THE WEBSITE WILL BE SUBJECT TO THE TERMS IN EFFECT AT THE TIME OF USE. PLEASE REVIEW THESE TERMS PERIODICALLY. IF YOU DO NOT AGREE TO THE CURRENT TERMS, PLEASE DO NOT USE THE WEBSITE OR ANY OF OUR SERVICES.\n\n**1. Scope of Use**\n\nMediaX Agency provides PR and marketing services, including access to our proprietary platform that enables users to submit press releases for distribution across our partner network (the “Service”).\n\nYou agree to use the website and service only for lawful purposes related to submitting content for press distribution. You shall not:\nInterfere with website functionality or security\nSubmit or distribute unlawful, offensive, or infringing content\nImpersonate another person or misrepresent your identity\nAttempt unauthorized access to our servers or infrastructure\nUse the site for unsolicited advertising or spam without permission\n\n**2. Intellectual Property**\n\nAll trademarks, logos, graphics, service marks, and content displayed on the site are the property of MediaX Agency or its affiliates, partners, or licensors. You are not granted any license or right to use these without prior written consent.\nUnauthorized use of our intellectual property or website content may result in termination of access and legal action.\n\n**3. Uploads & User Content**\n\nYou are solely responsible for all content you upload to the website, including press releases, images, and media files (“Uploads”). MediaX does not verify the accuracy or legality of uploaded content and disclaims all liability associated with it.\nBy uploading content, you affirm that:\n\nYou own or have legal rights to distribute the material\nThe content is not defamatory, offensive, or in violation of any law or third-party rights\nThe content does not contain malicious code or disrupt website functionality\nWe reserve the right to remove any content, restrict access, or terminate accounts that violate these terms.\n\n**4. No Warranty**\n\nTHE WEBSITE AND SERVICES ARE PROVIDED \"AS IS\" AND \"AS AVAILABLE,\" WITHOUT ANY WARRANTIES OF ANY KIND. MEDIAX DISCLAIMS ALL EXPRESS AND IMPLIED WARRANTIES, INCLUDING BUT NOT LIMITED TO:\nMERCHANTABILITY\nFITNESS FOR A PARTICULAR PURPOSE\nNON-INFRINGEMENT\nAVAILABILITY OR ACCURACY OF CONTENT OR LINKS\nWE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED OR ERROR-FREE.\n\n**5. Limitation of Liability**\n\nIN NO EVENT SHALL MEDIAX AGENCY OR ITS AFFILIATES BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS OR DATA, ARISING OUT OF OR RELATING TO:\nYOUR USE OR INABILITY TO USE THE WEBSITE\nANY CONTENT SUBMITTED BY YOU OR THIRD PARTIES\nERRORS, OMISSIONS, OR DELAYS IN SERVICE\nHARM CAUSED BY LINKS TO THIRD-PARTY SITES\nYOUR SOLE REMEDY IS TO CEASE USING THE WEBSITE.\n\n**6. Third-Party Links**\n\nOur website may contain links to third-party websites for your convenience. MediaX Agency does not control or endorse such websites and is not responsible for their content, terms of use, or privacy practices.\nYou access third-party websites at your own risk and are advised to review their respective terms and privacy policies.\n\n**7. Additional Terms and Privacy**\n\nCertain sections or services may be subject to additional terms, which are hereby incorporated into these Terms of Service. In the case of a conflict, the specific terms for that section shall take precedence.\nPlease review our [Privacy Policy] to understand how we collect and use your data.\n\n**8. Governing Law and Jurisdiction**\n\nThese Terms shall be governed by the laws of the United Arab Emirates. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of Dubai, UAE.\n\n**9. Disclaimer**\n\nContent distributed through MediaX Agency is submitted by clients and third parties. MediaX does not endorse or verify the claims, opinions, or financial projections included in client content.\n\nDisclaimer:  The press release is provided by the sponsor/project . The statements, views, and opinions expressed in this content are solely those of the content provider and do not necessarily reflect the views of this media platform or its publisher. We do not endorse, verify, or guarantee the accuracy, completeness, or reliability of any information presented. We do not guarantee any claims, statements, or promises made in this article. This content is for informational purposes only and should not be considered financial, investment, or trading advice.\n\nInvesting in crypto and mining-related opportunities involves significant risks, including the potential loss of capital. It is possible to lose all your capital. These products may not be suitable for everyone, and you should ensure that you understand the risks involved. Seek independent advice if necessary. Speculate only with funds that you can afford to lose. Readers are strongly encouraged to conduct their own research and consult with a qualified financial advisor before making any investment decisions. However, due to the inherently speculative nature of the blockchain sector—including cryptocurrency, NFTs, and mining—complete accuracy cannot always be guaranteed.\n\nNeither the media platform nor the publisher shall be held responsible for any fraudulent activities, misrepresentations, or financial losses arising from the content of this press release. In the event of any legal claims or charges against this article, we accept no liability or responsibility.\n\nLegal Disclaimer: This media platform provides the content of this article on an \"as-is\" basis, without any warranties or representations of any kind, express or implied. We assume no responsibility for any inaccuracies, errors, or omissions. We do not assume any responsibility or liability for the accuracy, content, images, videos, licenses, completeness, legality, or reliability of the information presented herein. Any concerns, complaints, or copyright issues related to this article should be directed to the content provider mentioned above.\n\nInvesting or engaging with press releases about blockchain, Web3, crypto, or other financial technologies involves substantial risk. MediaX Agency bears no liability for outcomes resulting from the content we distribute. Readers and investors are encouraged to perform their own due diligence and consult with qualified professionals.\n\nIf you have questions about these Terms of Service, please contact us at contact@mediax.agency\n",
+   "seo": {
+    "id": 13,
+    "title": "Terms & Conditions – User Agreement & Service Terms",
+    "metaDescription": "Review the terms and conditions for using MediaX services, including press release distribution, crypto PR, and Web3 marketing solutions."
+   }
+  },
+  "privacy": {
+   "createdAt": "2025-04-22T10:43:14.790Z",
+   "updatedAt": "2025-07-17T18:02:36.052Z",
+   "publishedAt": "2025-04-28T11:53:48.663Z",
+   "title": "Privacy Policy",
+   "content": "## 1. INTRODUCTION\nYour privacy is important to us. MediaX Agency (\"we\", \"our\", or \"us\") operates an automated service for PR agencies and businesses to upload and distribute press releases. This Privacy Policy outlines how, when, and why we collect and process your personal information (\"Personal Information\").\n\nPersonal Information refers to any data that can be used to identify, contact, or locate an individual. This may include but is not limited to name, ID, passport number, address, email, credit/debit card details, and other financial data. Any information that does not identify an individual, such as aggregated data, is considered \"Anonymous Information,\" which we may use freely without prior notice.\n\n## 2. CONSENT, NOTIFICATION, AND MODIFICATION\nThis Privacy Policy governs information collected both for our own use and as a data processor on behalf of clients. By using this Website, you consent to our collection and processing of your Personal Information to manage your account and enhance our services. We may share such data with third parties essential to service execution.\n\nYou also agree to provide appropriate notice and obtain necessary permissions from any third parties whose Personal Information is collected, received, or processed through our services.\n\nPersonal Information is stored securely for compliance with legal and regulatory obligations. You have the right to access, correct, or object to the processing of your data, including opting out of email communications.\n\nWe reserve the right to modify this Privacy Policy in accordance with applicable law. Any changes will take effect within 15 days of posting on the Website, and continued use of our services signifies your acceptance.\n\n## 3. COOKIES\nOur Website may use \"cookies\" and tracking technologies to collect Anonymous Information. A \"cookie\" is a small text file that helps improve user experience, including storing login credentials.\n\nTo review our Cookies Policy, click [here].\n\n## 4. GOOGLE SERVICES\nOur services utilize Google APIs to store and share press releases via Google Drive with partners, clients, and publishers. We adhere to Google's API Services User Data Policy, including Limited Use requirements.\n\n## 5. USE AND DISCLOSURE OF PERSONAL INFORMATION\nWe store and use your Personal Information for:\n\nManaging service administration, providing support, and handling inquiries;\nEnforcing our Terms and Conditions and complying with legal requirements;\nPreventing service misuse and assisting law enforcement agencies;\nImproving our services and developing new features.\nWe do not sell, lease, or disclose Personal Information to third parties except as required by law. We may share data with law enforcement agencies, credit bureaus, or necessary third-party service providers bound by similar privacy obligations.\n\nIf you choose to engage with third-party services via our platform, their respective privacy policies will apply, and we are not responsible for their data practices.\n\n## 6. SECURITY MEASURES\nWe implement reasonable physical, electronic, and procedural safeguards to protect your Personal Information from unauthorized access, loss, or misuse. However, no security measures are 100% foolproof. While we strive to protect your data, we cannot guarantee absolute security against potential breaches.\n\n## 7. CHANGES TO THIS PRIVACY POLICY\nThis Privacy Policy may be updated periodically in compliance with applicable laws, including the General Data Protection Regulation (GDPR). The latest version will always be posted on our Website. If material changes occur, we may notify you via email.\n\nThis content is provided by sponsor. The statements, views and opinions expressed in this column are solely those of the content provider. The information provided in this press release is not a solicitation for investment, nor is it intended as investment advice, financial advice, or trading advice. It is strongly recommended you practice due diligence, including consultation with a professional financial advisor, before investing in or trading cryptocurrency and securities. Please conduct your own research and invest at your own risk.\n\n## 8. COMPLAINTS & CONTACT INFORMATION\nIf you believe we have not processed your data in accordance with this policy, please contact us at contact@mediax.agency. We will address your concerns promptly.\n\nBy using our Website and services, you acknowledge that you have read, understood, and agreed to this Privacy Policy.",
+   "seo": {
+    "id": 12,
+    "title": "Privacy Policy – How We Protect Your Data",
+    "metaDescription": "Learn how MediaX collects, uses, and protects your personal data when using our crypto PR services. Your privacy is our priority."
+   }
+  }
+ }
+}
