@@ -1,5 +1,6 @@
 import { Page, PageHead } from "@/components/Site"
 import Plans from "@/components/Plans"
+import Compare from "@/components/Compare"
 import Questions from "@/components/Questions"
 import { BOOKING, cms } from "@/lib/data"
 import s from "@/styles/site.module.css"
@@ -12,6 +13,15 @@ export default function Pricing() {
       <PageHead title={cms.pricing.title} intro="Every package includes guaranteed publications, editorial assistance, SEO optimization and a metrics report." />
       <section className={s.pageBody}>
         <Plans />
+      </section>
+      <section className={s.pageBody} id="compare">
+        <div className={s.sectionHead}>
+          <h2 className={s.h2} data-axis="">
+            Compare every package
+          </h2>
+          <p className={s.lead}>See what each package costs, how many publications it guarantees and which outlets it features.</p>
+        </div>
+        <Compare />
       </section>
       <section className={s.faq}>
         <div className={s.sectionHead}>

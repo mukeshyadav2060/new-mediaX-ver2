@@ -132,6 +132,24 @@
 .logoTile img { width: auto; height: auto; max-width: 100%; max-height: 100%; border-radius: 4px; }
 @keyframes pop { from { opacity: 0; transform: scale(0.85); } }
 
+/* Plan comparison: the header stays in view, so every tick keeps its plan name and price */
+.compare { padding: clamp(10px, 2.4vw, 32px); border-radius: 40px; background: #fff; }
+.compareTable { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0; }
+.compareTable th, .compareTable td { padding: 11px 8px; border-bottom: 1px solid var(--line); font-weight: 400; text-align: center; }
+.compareTable thead td { width: 32%; }
+.compareTable thead th, .compareTable thead td { position: sticky; top: 0; z-index: 1; padding-block: 16px; background: #fff; }
+.compareTable thead th span { display: block; font-weight: 600; }
+.compareTable thead th strong { display: block; font-family: var(--display); font-size: clamp(15px, 1.6vw, 22px); font-weight: 500; letter-spacing: -0.03em; }
+.compareTable tbody th { font-weight: 500; text-align: left; }
+.compareTable tbody tr:hover { background: var(--paper); }
+.compareTable .compareGroup:hover { background: none; }
+.compareTable .compareGroup th { padding-top: 32px; font-family: var(--display); font-size: clamp(18px, 1.6vw, 22px); letter-spacing: -0.03em; }
+.compareTable td.compareFigure { font-weight: 600; }
+.compareYes { display: inline-block; vertical-align: middle; color: var(--teal); }
+.compareNo { color: var(--muted); opacity: 0.5; }
+.compareTable tfoot td { padding-top: 20px; border-bottom: 0; }
+.compareTable .btnLarge { width: 100%; min-height: 48px; padding: 0 8px; font-size: 16px; }
+
 /* Testimonials: rows centre, so three then two stays balanced */
 .voices { padding: 0 var(--pad) clamp(80px, 10vw, 140px); }
 .voiceGrid { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
@@ -340,6 +358,19 @@
   .planTab, .planTabOn { padding: 12px 2px; border-radius: 20px; font-size: 13px; }
   .planTab strong, .planTabOn strong { font-size: 11px; letter-spacing: -0.04em; }
   .logoTile { width: calc((100% - 16px) / 3); }
+  .compare { border-radius: 28px; }
+  .compareTable, .compareTable thead, .compareTable tbody, .compareTable tfoot { display: block; }
+  .compareTable tr { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .compareTable thead { position: sticky; top: 0; z-index: 1; background: #fff; }
+  .compareTable thead td, .compareTable tfoot td:first-child { display: none; }
+  .compareTable thead th { position: static; padding: 10px 1px; }
+  .compareTable thead th span { font-size: 13px; }
+  .compareTable thead th strong { font-size: 11px; letter-spacing: -0.04em; }
+  .compareTable tbody th { grid-column: 1 / -1; padding: 10px 4px 2px; border-bottom: 0; text-align: center; }
+  .compareTable tbody td { padding: 2px 0 10px; }
+  .compareTable .compareGroup th { padding: 24px 4px 10px; border-bottom: 1px solid var(--line); }
+  .compareTable tfoot td { padding: 16px 2px 4px; }
+  .compareTable .btnLarge { min-height: 44px; padding: 0; font-size: 13px; }
   .voice { flex-basis: 100%; }
   .clientWall li { width: calc((100% - 20px) / 3); }
   .question { padding: 0 16px; }
