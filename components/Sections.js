@@ -17,7 +17,7 @@ const FEATURE_ART = [
   logos("benzinga", "coinmarketcap", "be-in-crypto"),
 ]
 
-function Marquee({ items, reverse }) {
+export function Marquee({ items, reverse }) {
   return (
     <div className={s.marquee}>
       <div className={`${s.marqueeTrack} ${reverse ? s.marqueeBack : ""}`}>
@@ -196,7 +196,7 @@ export function Cta({ title = "Ready to get featured?", text = "Get in touch wit
           {text}
         </p>
         <div className={s.actions} data-r="3">
-          <Link href={href} className={s.btnButter}>
+          <Link href={href} className={s.btnSoft}>
             {button}
           </Link>
           {href === "/submit-press-release" && (

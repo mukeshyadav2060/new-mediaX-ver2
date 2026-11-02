@@ -1,10 +1,10 @@
 import { useEffect } from "react"
 import { useRouter } from "next/router"
 import Head from "next/head"
-import { Figtree, Unbounded } from "next/font/google"
+import { Figtree, Outfit } from "next/font/google"
 import "@/styles/globals.css"
 
-const display = Unbounded({ subsets: ["latin"], variable: "--font-display", display: "swap" })
+const display = Outfit({ subsets: ["latin"], variable: "--font-display", display: "swap" })
 const sans = Figtree({ subsets: ["latin"], variable: "--font-sans", display: "swap" })
 
 const ORGANIZATION = JSON.stringify({

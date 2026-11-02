@@ -8,7 +8,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="icon" href="/mark.svg" type="image/svg+xml" />
-        <meta name="theme-color" content="#f5f2e9" />
+        <meta name="theme-color" content="#f9f6ee" />
         <script dangerouslySetInnerHTML={{ __html: reveal }} />
       </Head>
       <body>

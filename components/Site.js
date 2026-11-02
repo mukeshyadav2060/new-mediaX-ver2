@@ -9,16 +9,12 @@ export { Mark }
 
 const SITE = "https://mediax.agency"
 
-// Three links either side of the logo, so the header mirrors around its centre.
-const NAV_LEFT = [
+const NAV = [
   ["Pricing", "/pricing"],
   ["Newsroom", "/newsroom"],
   ["Blogs", "/blogs"],
-]
-const NAV_RIGHT = [
   ["Industry", "/industry"],
   ["Contact", "/contact"],
-  ["Submit PR", "/submit-press-release"],
 ]
 
 const FOOT_COMPANY = [
@@ -65,40 +61,33 @@ export function Seo({ title, fullTitle, description, image, type, noindex }) {
 export function Nav() {
   return (
     <header className={s.nav}>
+      <Link href="/" className={s.brand}>
+        <Mark size={28} className={s.brandMark} />
+        MediaX
+      </Link>
       <nav className={s.navSide} aria-label="Main">
-        {NAV_LEFT.map(([label, href]) => (
+        {NAV.map(([label, href]) => (
           <Link key={href} href={href} className={s.navLink}>
             {label}
           </Link>
         ))}
       </nav>
+      <Link href="/submit-press-release" className={`${s.btnLarge} ${s.navCta}`}>
+        Submit PR
+      </Link>
       <details className={s.menu}>
         <summary aria-label="Menu">
           <i />
           <i />
         </summary>
         <nav className={s.menuPanel} aria-label="Menu">
-          {[...NAV_LEFT, ...NAV_RIGHT, ["Services", "/services"], ["About", "/about"]].map(([label, href]) => (
+          {[...NAV, ["Services", "/services"], ["About", "/about"]].map(([label, href]) => (
             <Link key={href} href={href}>
               {label}
             </Link>
           ))}
         </nav>
       </details>
-      <Link href="/" className={s.brand} data-axis="">
-        <Mark size={28} className={s.brandMark} />
-        MediaX
-      </Link>
-      <nav className={`${s.navSide} ${s.navRight}`} aria-label="More">
-        {NAV_RIGHT.map(([label, href]) => (
-          <Link key={href} href={href} className={s.navLink}>
-            {label}
-          </Link>
-        ))}
-      </nav>
-      <Link href="/submit-press-release" className={s.navPhone}>
-        Submit PR
-      </Link>
     </header>
   )
 }
