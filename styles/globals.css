@@ -1,21 +1,26 @@
 :root {
-  --paper: #f9f6ee;
-  --card: #ffffff;
-  --ink: #242a2b;
-  --muted: #5a6061;
-  --accent: #d23a00;
-  --accent-hover: #b53200;
-  --deep: #242a2b;
-  --on-deep: #f9f6ee;
-  --on-deep-soft: #c3c8c8;
-  --peach: #ffe2d6;
-  --on-peach: #661d00;
-  --line: #ecebe3;
-  /* Pale washes for section fields and the arches. Never for text or buttons. */
-  --wash-aqua: #c9ebe6;
-  --wash-peach: #ffd9c6;
-  --wash-lilac: #e3dcfb;
-  --wash-butter: #ffe8ae;
+  --paper: #ffffff;
+  --paper-2: #f4f5f7;
+  --paper-3: #e9ebef;
+  --card: #f4f5f7;
+  --ink: #0b0d10;
+  --muted: #646b76;
+  /* The only accent. Solid buttons turn ink on hover. */
+  --accent: #1a45ff;
+  --accent-hover: #0b0d10;
+  /* Grey sections keep the page's dark text. */
+  --deep: #e9ebef;
+  --on-deep: #0b0d10;
+  --on-deep-soft: #646b76;
+  --peach: #e9ebef;
+  --on-peach: #0b0d10;
+  --line: #e0e3e8;
+  --ink-line: #d5d9df;
+  /* Section fields and the arches: greys only. Never for text or buttons. */
+  --wash-aqua: #e9ebef;
+  --wash-peach: #f4f5f7;
+  --wash-lilac: #e9ebef;
+  --wash-butter: #f4f5f7;
   --m: clamp(16px, 4vw, 48px);
   /* Equal side padding that keeps content in a centred 1200px column at any width. */
   --pad: max(var(--m), calc((100% - 1200px) / 2));
@@ -49,7 +54,7 @@ button { cursor: pointer; }
 h1, h2, h3 { text-wrap: balance; }
 p { text-wrap: pretty; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-::selection { background: var(--peach); color: var(--ink); }
+::selection { background: var(--accent); color: #fff; }
 .num { font-variant-numeric: tabular-nums; }
 
 .js [data-r] {

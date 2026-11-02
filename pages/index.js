@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Footer, Nav, Seo } from "@/components/Site"
-import Arcade from "@/components/Arcade"
+import Feed from "@/components/Feed"
 import Plans from "@/components/Plans"
 import Questions from "@/components/Questions"
 import { Marquee } from "@/components/Sections"
@@ -39,7 +39,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <Arcade />
+        <Feed />
       </section>
 
       <main>
