@@ -74,7 +74,7 @@
 .aCentre .archFace svg { width: 100%; height: auto; }
 
 /* Moving logos: two rows sliding in opposite directions */
-.logos { padding: clamp(56px, 7vw, 96px) 0; background: var(--deep); color: var(--on-deep); overflow: hidden; }
+.logos { --wave: 24px; position: relative; z-index: 1; isolation: isolate; padding: calc(var(--wave) + clamp(56px, 7vw, 96px)) 0; --field: var(--deep); color: var(--on-deep); overflow: hidden; }
 .logos .h2 { max-width: 19em; margin-bottom: clamp(32px, 4vw, 52px); padding-inline: var(--m); }
 .marquee { overflow: hidden; padding: 6px 0; }
 .marqueeTrack { display: flex; width: max-content; animation: slide 60s linear infinite; will-change: transform; }
@@ -102,7 +102,7 @@
 .bentoCard p:last-child { max-width: 46ch; }
 
 /* Steps: a neutral field holding two by two white cards */
-.how { padding: clamp(72px, 9vw, 130px) var(--pad); background: var(--line); }
+.how { --wave: 24px; position: relative; z-index: 1; isolation: isolate; padding: calc(var(--wave) + clamp(72px, 9vw, 130px)) var(--pad); --field: var(--line); }
 .howLead { max-width: 58ch; margin-inline: auto; font-size: clamp(17px, 1.4vw, 19px); text-align: center; }
 .steps { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .step { display: grid; justify-items: center; align-content: start; gap: 10px; padding: clamp(24px, 3vw, 40px); border-radius: 40px; background: var(--paper-2); text-align: center; }
@@ -160,7 +160,7 @@
 .voice small { font-size: 15px; color: var(--muted); }
 
 /* Client wall */
-.clients { padding: clamp(64px, 8vw, 110px) var(--pad); background: var(--deep); color: var(--on-deep); }
+.clients { --wave: 24px; position: relative; z-index: 1; isolation: isolate; padding: calc(var(--wave) + clamp(64px, 8vw, 110px)) var(--pad); --field: var(--deep); color: var(--on-deep); }
 .clients .h2 { margin-bottom: clamp(32px, 4vw, 48px); }
 .clientWall { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 .clientWall li { display: flex; align-items: center; justify-content: center; width: 112px; height: 72px; padding: 12px 18px; overflow: hidden; border-radius: 36px; background: #fff; transition: transform 0.4s var(--spring); }
@@ -194,9 +194,16 @@
 .ctaText { max-width: 50ch; font-size: clamp(17px, 1.4vw, 19px); }
 
 /* Footer */
-.footer { display: grid; justify-items: center; gap: 14px; padding: clamp(48px, 6vw, 80px) var(--pad) 28px; background: var(--deep); color: var(--on-deep); text-align: center; }
+.footer { position: relative; display: grid; justify-items: center; gap: 14px; padding: calc(24px + clamp(48px, 6vw, 80px)) var(--pad) 28px; background: var(--deep); color: var(--on-deep); text-align: center; }
 .footWord { display: inline-flex; align-items: center; gap: 10px; font-family: var(--display); font-size: 30px; font-weight: 600; letter-spacing: -0.04em; color: var(--ink); text-decoration: none; }
 .footWord svg { color: var(--accent); }
+/* The footer's wavy top, left off where the closing arch or the home end band already stands on it */
+.footer::before, .footer::after { content: ""; position: absolute; inset: 0 0 auto; height: 24px; pointer-events: none; }
+.footer::before { background: var(--paper); -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 0 64 12T128 12V0H0Z'/%3E%3C/svg%3E") top left / 128px 24px repeat-x; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 0 64 12T128 12V0H0Z'/%3E%3C/svg%3E") top left / 128px 24px repeat-x; }
+.footer::after { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 0 64 12T128 12' fill='none' stroke='%230b0d10' stroke-width='2'/%3E%3C/svg%3E") top left / 128px 24px repeat-x; }
+main:has(> .ctaWrap:last-child) + .footer::before, main:has(> .ctaWrap:last-child) + .footer::after,
+main:has(> .homeBandEnd:last-child) + .footer::before, main:has(> .homeBandEnd:last-child) + .footer::after { display: none; }
+main:has(> .ctaWrap:last-child) + .footer, main:has(> .homeBandEnd:last-child) + .footer { padding-top: clamp(48px, 6vw, 80px); }
 .footSummary { max-width: 60ch; color: var(--on-deep-soft); }
 .footCols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px 24px; width: 100%; max-width: 1000px; margin-top: 28px; }
 .footCols > div { display: grid; justify-items: center; align-content: start; gap: 7px; color: var(--on-deep-soft); }
@@ -362,8 +369,8 @@
 
 /* The field paints on ::before so its mask cuts the waves; ::after draws the ink line along them. */
 .homeBand { --wave: 24px; position: relative; z-index: 1; isolation: isolate; margin-top: calc(var(--wave) * -1); padding: calc(var(--wave) + clamp(56px, 7vw, 96px)) 0; }
-.homeBand::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--field); -webkit-mask: var(--wave-top) top left / 128px var(--wave) repeat-x, var(--wave-bottom) bottom left / 128px var(--wave) repeat-x, linear-gradient(#000, #000) left calc(var(--wave) - 1px) / 100% calc(100% - var(--wave) * 2 + 2px) no-repeat; mask: var(--wave-top) top left / 128px var(--wave) repeat-x, var(--wave-bottom) bottom left / 128px var(--wave) repeat-x, linear-gradient(#000, #000) left calc(var(--wave) - 1px) / 100% calc(100% - var(--wave) * 2 + 2px) no-repeat; --wave-top: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 0 64 12T128 12V24H0Z'/%3E%3C/svg%3E"); --wave-bottom: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 24 64 12T128 12V0H0Z'/%3E%3C/svg%3E"); }
-.homeBand::after { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 0 64 12T128 12' fill='none' stroke='%230b0d10' stroke-width='2'/%3E%3C/svg%3E") top left / 128px var(--wave) repeat-x, url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 24 64 12T128 12' fill='none' stroke='%230b0d10' stroke-width='2'/%3E%3C/svg%3E") bottom left / 128px var(--wave) repeat-x; }
+.homeBand::before, .logos::before, .how::before, .clients::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--field); -webkit-mask: var(--wave-top) top left / 128px var(--wave) repeat-x, var(--wave-bottom) bottom left / 128px var(--wave) repeat-x, linear-gradient(#000, #000) left calc(var(--wave) - 1px) / 100% calc(100% - var(--wave) * 2 + 2px) no-repeat; mask: var(--wave-top) top left / 128px var(--wave) repeat-x, var(--wave-bottom) bottom left / 128px var(--wave) repeat-x, linear-gradient(#000, #000) left calc(var(--wave) - 1px) / 100% calc(100% - var(--wave) * 2 + 2px) no-repeat; --wave-top: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 0 64 12T128 12V24H0Z'/%3E%3C/svg%3E"); --wave-bottom: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 24 64 12T128 12V0H0Z'/%3E%3C/svg%3E"); }
+.homeBand::after, .logos::after, .how::after, .clients::after { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 0 64 12T128 12' fill='none' stroke='%230b0d10' stroke-width='2'/%3E%3C/svg%3E") top left / 128px var(--wave) repeat-x, url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='24'%3E%3Cpath d='M0 12Q32 24 64 12T128 12' fill='none' stroke='%230b0d10' stroke-width='2'/%3E%3C/svg%3E") bottom left / 128px var(--wave) repeat-x; }
 .homeBandLogos { --field: linear-gradient(100deg, var(--wash-peach), var(--wash-lilac) 50%, var(--wash-aqua)); }
 .homeBandSteps { --field: linear-gradient(100deg, var(--wash-butter), var(--wash-peach)); padding-inline: var(--pad); margin-top: 0; }
 .homeBandEnd { --field: linear-gradient(100deg, var(--wash-aqua), var(--wash-butter) 55%, var(--wash-peach)); margin-block: 0 calc(var(--wave) * -1); padding-inline: var(--pad); }
