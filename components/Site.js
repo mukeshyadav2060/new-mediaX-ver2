@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { useRouter } from "next/router"
@@ -58,7 +59,24 @@ export function Seo({ title, fullTitle, description, image, type, noindex }) {
   )
 }
 
+const MENU = [...NAV, ["Services", "/services"], ["About", "/about"]]
+
 export function Nav() {
+  const [open, setOpen] = useState(false)
+
+  // While the sheet is open the page behind it can't scroll, and Escape closes it.
+  useEffect(() => {
+    if (!open) return
+    const close = (e) => e.key === "Escape" && setOpen(false)
+    document.documentElement.style.overflow = "hidden"
+    window.addEventListener("keydown", close)
+    return () => {
+      document.documentElement.style.overflow = ""
+      window.removeEventListener("keydown", close)
+    }
+  }, [open])
+
+  const shut = () => setOpen(false)
   return (
     <header className={s.nav}>
       <Link href="/" className={s.brand}>
@@ -75,19 +93,22 @@ export function Nav() {
       <Link href="/submit-press-release" className={`${s.btnLarge} ${s.navCta}`}>
         Submit PR
       </Link>
-      <details className={s.menu}>
-        <summary aria-label="Menu">
-          <i />
-          <i />
-        </summary>
-        <nav className={s.menuPanel} aria-label="Menu">
-          {[...NAV, ["Services", "/services"], ["About", "/about"]].map(([label, href]) => (
-            <Link key={href} href={href}>
+      <button type="button" className={s.burger} aria-expanded={open} aria-controls="menu-sheet" aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(!open)}>
+        <span />
+        <span />
+      </button>
+      <div id="menu-sheet" className={`${s.sheet} ${open ? s.sheetOpen : ""}`} aria-hidden={!open}>
+        <nav aria-label="Menu">
+          {MENU.map(([label, href], i) => (
+            <Link key={href} href={href} style={{ "--i": i }} tabIndex={open ? undefined : -1} onClick={shut}>
               {label}
             </Link>
           ))}
         </nav>
-      </details>
+        <Link href="/submit-press-release" className={s.btnLarge} style={{ "--i": MENU.length }} tabIndex={open ? undefined : -1} onClick={shut}>
+          Submit your press release
+        </Link>
+      </div>
     </header>
   )
 }
