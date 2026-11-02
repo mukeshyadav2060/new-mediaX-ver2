@@ -91,7 +91,7 @@ export function Nav() {
         ))}
       </nav>
       <Link href="/submit-press-release" className={`${s.btnLarge} ${s.navCta}`}>
-        Submit PR
+        Get Started
       </Link>
       <button type="button" className={s.burger} aria-expanded={open} aria-controls="menu-sheet" aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(!open)}>
         <span />
