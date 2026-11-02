@@ -43,7 +43,7 @@
 .btnLarge.navCta { min-height: 46px; margin-left: auto; padding: 0 22px; font-size: 16px; }
 .navLink { padding: 8px 14px; border-radius: 999px; font-weight: 500; text-decoration: none; transition: background-color 0.2s; }
 .navLink:hover { background: rgba(11, 13, 16, 0.08); }
-.brand { display: inline-flex; align-items: center; gap: 9px; font-family: var(--display); font-size: 22px; font-weight: 600; letter-spacing: -0.04em; text-decoration: none; }
+.brand { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; font-family: var(--display); font-size: 22px; font-weight: 600; letter-spacing: -0.04em; text-decoration: none; }
 .brandMark { color: var(--accent); }
 /* Phone menu: the burger turns into an ×, and a full-screen sheet grows from it as a circle and shrinks back on close. */
 .burger { display: none; position: relative; z-index: 70; flex: none; width: 46px; height: 46px; border: 0; border-radius: 50%; background: var(--ink); -webkit-tap-highlight-color: transparent; transition: background-color 0.4s var(--ease), transform 0.35s var(--spring); }
@@ -257,18 +257,18 @@ main:has(> .ctaWrap:last-child) + .footer, main:has(> .homeBandEnd:last-child) +
 .member span { font-size: 15px; color: var(--muted); }
 
 /* Contact */
-.contact { display: grid; justify-items: center; gap: 16px; padding: 0 var(--pad) clamp(80px, 10vw, 140px); }
+.contact { display: grid; grid-template-columns: minmax(0, 1fr); justify-items: center; gap: 16px; padding: 0 var(--pad) clamp(80px, 10vw, 140px); }
 .contactForm { display: grid; gap: 16px; width: 100%; max-width: 660px; padding: clamp(24px, 3.4vw, 44px); border-radius: 40px; background: var(--paper-2); }
 .contactSide { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; width: 100%; max-width: 1000px; text-align: center; }
 .contactSide > div { padding: 22px 12px; border-radius: 32px; background: var(--paper-2); }
-.contactSide a { color: var(--accent); font-weight: 600; }
+.contactSide a { color: var(--accent); font-weight: 600; overflow-wrap: anywhere; }
 .field { display: grid; gap: 8px; font-weight: 600; text-align: center; }
-.field input, .field textarea, .field select { width: 100%; min-height: 54px; padding: 14px 20px; border: 0; border-radius: 27px; background: var(--paper); font-weight: 400; text-align: center; transition: box-shadow 0.2s, background-color 0.2s; }
+.field input, .field textarea, .field select { width: 100%; min-width: 0; max-width: 100%; min-height: 54px; padding: 14px 20px; border: 0; border-radius: 27px; background: var(--paper); font-weight: 400; text-align: center; transition: box-shadow 0.2s, background-color 0.2s; }
 .field input:focus, .field textarea:focus, .field select:focus { outline: 0; background: #fff; box-shadow: 0 0 0 2px var(--accent); }
 .field textarea { min-height: 170px; resize: vertical; }
 
 /* Order form */
-.order { display: grid; justify-items: center; gap: 16px; padding: 0 var(--pad) clamp(80px, 10vw, 140px); }
+.order { display: grid; grid-template-columns: minmax(0, 1fr); justify-items: center; gap: 16px; padding: 0 var(--pad) clamp(80px, 10vw, 140px); }
 .orderHead { font-family: var(--display); font-size: clamp(20px, 2vw, 26px); font-weight: 500; line-height: 1.2; letter-spacing: -0.03em; text-align: center; }
 .fieldPair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .field select { text-align-last: center; }
@@ -290,7 +290,7 @@ main:has(> .ctaWrap:last-child) + .footer, main:has(> .homeBandEnd:last-child) +
 /* Articles: everything sits on the centre line, and the column itself is centred for reading */
 .articleWrap { display: grid; grid-template-columns: minmax(0, 1fr); justify-items: center; gap: 20px; padding: clamp(28px, 4vw, 56px) var(--pad) clamp(40px, 5vw, 72px); }
 .crumbs { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; font-size: 15px; font-weight: 500; color: var(--muted); }
-.crumbs a { text-decoration: none; }
+.crumbs a { margin-block: -10px; padding-block: 10px; text-decoration: none; }
 .crumbs a:hover { color: var(--accent); }
 .crumbs a + a::before { content: "/"; margin-right: 8px; color: var(--muted); }
 .articleTitle { max-width: 21em; font-family: var(--display); font-size: clamp(25px, 3.5vw, 48px); font-weight: 500; line-height: 1.14; letter-spacing: -0.04em; text-align: center; overflow-wrap: anywhere; }
@@ -330,8 +330,8 @@ main:has(> .ctaWrap:last-child) + .footer, main:has(> .homeBandEnd:last-child) +
 .tile p { color: var(--muted); }
 .tileTitle { font-family: var(--display); font-size: clamp(18px, 1.6vw, 22px); font-weight: 500; line-height: 1.22; letter-spacing: -0.03em; }
 .tileIcon { display: grid; place-items: center; width: 84px; height: 84px; border-radius: 50%; background: var(--peach); }
-.tileLinks { display: grid; gap: 7px; }
-.tileLinks a { color: var(--accent); font-weight: 500; text-decoration: none; }
+.tileLinks { display: grid; gap: 0; }
+.tileLinks a { padding-block: 9px; color: var(--accent); font-weight: 500; text-decoration: none; }
 .tileLinks a:hover { text-decoration: underline; }
 .gap { height: clamp(80px, 10vw, 140px); }
 
@@ -406,6 +406,9 @@ main:has(> .ctaWrap:last-child) + .footer, main:has(> .homeBandEnd:last-child) +
 /* Tablet */
 @media (max-width: 1000px) {
   .navSide { display: none; }
+  .footCols > div { gap: 0; }
+  .footCols a { min-width: 44px; padding-block: 10px; }
+  .legalLinks a { padding: 10px 4px; }
   .burger { display: block; }
   .blogGrid, .blogList { grid-template-columns: minmax(0, 1fr); max-width: 560px; margin-inline: auto; }
   .voice { flex-basis: calc((100% - 16px) / 2); }
@@ -423,9 +426,11 @@ main:has(> .ctaWrap:last-child) + .footer, main:has(> .homeBandEnd:last-child) +
   .marqueeTile { width: 124px; height: 64px; padding: 10px 16px; border-radius: 32px; }
   .bento, .steps { grid-template-columns: minmax(0, 1fr); }
   .stackTile { width: 72px; height: 72px; padding: 13px; }
-  .planTabs { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 4px; }
-  .planTab, .planTabOn { padding: 12px 2px; border-radius: 20px; font-size: 13px; }
-  .planTab strong, .planTabOn strong { font-size: 11px; letter-spacing: -0.04em; }
+  /* Plan tabs scroll sideways so names and prices stay readable. */
+  .planTabs { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: minmax(104px, 1fr); gap: 6px; margin-inline: calc(var(--m) * -1); padding: 2px var(--m) 4px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: var(--m); scrollbar-width: none; }
+  .planTabs::-webkit-scrollbar { display: none; }
+  .planTab, .planTabOn { padding: 12px 6px; border-radius: 22px; font-size: 14px; scroll-snap-align: start; }
+  .planTab strong, .planTabOn strong { font-size: 17px; }
   .logoTile { width: calc((100% - 16px) / 3); }
   .compare { border-radius: 28px; }
   .compareTable, .compareTable thead, .compareTable tbody, .compareTable tfoot { display: block; }
@@ -434,7 +439,7 @@ main:has(> .ctaWrap:last-child) + .footer, main:has(> .homeBandEnd:last-child) +
   .compareTable thead td, .compareTable tfoot td:first-child { display: none; }
   .compareTable thead th { position: static; padding: 10px 1px; }
   .compareTable thead th span { font-size: 13px; }
-  .compareTable thead th strong { font-size: 11px; letter-spacing: -0.04em; }
+  .compareTable thead th strong { font-size: 13px; letter-spacing: -0.04em; }
   .compareTable tbody th { grid-column: 1 / -1; padding: 10px 4px 2px; border-bottom: 0; text-align: center; }
   .compareTable tbody td { padding: 2px 0 10px; }
   .compareTable .compareGroup th { padding: 24px 4px 10px; border-bottom: 1px solid var(--line); }
@@ -448,7 +453,14 @@ main:has(> .ctaWrap:last-child) + .footer, main:has(> .homeBandEnd:last-child) +
   .voice { flex-basis: 100%; }
   .clientWall li { width: calc((100% - 20px) / 3); }
   .question { padding: 0 16px; }
-  .footCols { grid-template-columns: minmax(0, 1fr); }
+  /* Footer: two columns to halve its length, and links tall enough to tap. */
+  .footCols { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 12px; }
+  .footCols > div { gap: 0; }
+  .footCols { font-size: 15px; line-height: 1.35; }
+  .footCols a { padding: 12px 8px; overflow-wrap: anywhere; }
+  .footHead { margin-bottom: 2px; }
+  .legalLinks a { padding: 10px 4px; }
+  .contactSide { grid-template-columns: minmax(0, 1fr); }
   .outletCard { width: calc((100% - 10px) / 2); }
   .member { width: 100%; }
   .fieldPair { grid-template-columns: minmax(0, 1fr); }
@@ -458,4 +470,11 @@ main:has(> .ctaWrap:last-child) + .footer, main:has(> .homeBandEnd:last-child) +
   .articleCover { border-radius: 24px; }
   .pager { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 8px; }
   .pager a { min-width: 0; min-height: 48px; padding: 0 16px; font-size: 15px; }
+}
+
+/* Small phones: the header's logo, button and burger fit in 320px */
+@media (max-width: 400px) {
+  .nav { gap: 10px; }
+  .brand { font-size: 20px; }
+  .btnLarge.navCta { min-height: 44px; padding: 0 16px; font-size: 15px; }
 }

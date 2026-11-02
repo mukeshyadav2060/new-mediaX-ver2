@@ -147,7 +147,10 @@ export function Footer() {
           <a href={BOOKING} rel="noopener">
             Book a call
           </a>
-          <a href={`mailto:${contact.mail}`}>{contact.mail}</a>
+          <a href={`mailto:${contact.mail}`}>
+            {contact.mail.split("@")[0]}@<wbr />
+            {contact.mail.split("@")[1]}
+          </a>
           <a href={social.telegram} rel="noopener">
             Telegram
           </a>
