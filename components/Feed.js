@@ -1,22 +1,12 @@
-import { Mark } from "./Mark"
 import { outlet } from "@/lib/data"
 import s from "@/styles/site.module.css"
 
-// One release going out: each outlet row turns to "Published" in turn.
+// Each outlet row turns to "Published" in turn.
 const IDS = ["cointelegraph", "benzinga", "the-block", "apnews", "business-insider"]
 
 export default function Feed() {
   return (
     <div className={s.feed} role="img" aria-label="A press release published on Cointelegraph, Benzinga, The Block, AP News and Business Insider">
-      <div className={s.feedRelease}>
-        <span className={s.feedMark}>
-          <Mark size={30} />
-        </span>
-        <span>
-          <strong>Your press release</strong>
-          <small>Going live on 500+ outlets</small>
-        </span>
-      </div>
       <ul className={s.feedList}>
         {IDS.map((id, i) => {
           const o = outlet(id)
